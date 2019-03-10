@@ -1,24 +1,26 @@
-## Matt Thompson - Portfolio
+# Matt Thompson - Portfolio
 
-#### Week 1
+## My Goals
 
-###### Goals
+#### 1. I can build anything
 
-1. Test-drive a simple program using objects and methods
-  - Tuesday: [Test driving 1 project](https://diode.makersacademy.com/students/mattTea/projects/4451)
-
-    - I have a methodical approach to solving problems (decide what software to write)
-    - I can model anything
-    - I can TDD anything
-
-2. Pair using the driver-navigator style
-3. Follow an effective debugging process
-4. Describe some basic OO principles like encapsulation, SRP
+- [I can TDD anything]()
+- [I can program fluently]()
+- [I can debug anything]()
+- [I can model anything]()
+- [I can refactor anything]()
+- [I have a methodical approach to solving problems]()
 
 
-[Week outline]()
+#### 2. I'm equipped for long term growth
 
-[Processes I've created and followed]()
+- [I manage my own wellbeing]()
+- [I can learn anything by myself]()
 
 
-#### Week 2
+#### 3. I help my teams succeed
+
+- [I use an agile product development process]()
+- [I write code that is easy to change]()
+- [I can justify the way I work]()
+- [I grow collaboratively]()
