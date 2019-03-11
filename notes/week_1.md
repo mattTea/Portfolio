@@ -7,6 +7,18 @@ and link to examples of where you have evidenced these things
 
 #### Week 1
 
+A weekly journal to keep track of the work I am doing towards each of the goals.
+Includes what I have learnt...
+- Concrete things
+- ...
+- Processes
+- Behaviours
+
+link to examples of where I have evidenced these things
+
+
+[Raw notes]()
+
 **Goals**
 
 1. Test-drive a simple program using objects and methods
