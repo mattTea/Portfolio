@@ -1,43 +1,43 @@
-keep track of the work you are doing towards each of the goals
+## Week 1
 
-what you are learning, including the 4 things highlighted by Alice
-- particularly processes and behaviours
+_A weekly journal to keep track of the work I am doing towards each of the goals._
 
-and link to examples of where you have evidenced these things
-
-#### Week 1
-
-A weekly journal to keep track of the work I am doing towards each of the goals.
-Includes what I have learnt...
-- Concrete things
-- ...
-- Processes
-- Behaviours
-
-link to examples of where I have evidenced these things
+[Weekly outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/)
 
 
-[Raw notes]()
-
-**Goals**
+#### Goals
 
 1. Test-drive a simple program using objects and methods
-    - Tuesday: [Test driving 1 project](https://diode.makersacademy.com/students/mattTea/projects/4451)
-
-      - I have a methodical approach to solving problems (decide what software to write)
-      - I can model anything
-      - I can TDD anything
+    - [Test driving 1 project]()
 
 2. Pair using the driver-navigator style
+    - [Boris Bikes]()
+
 3. Follow an effective debugging process
+    - [Debugging workshop]()
+
 4. Describe some basic OO principles like encapsulation, SRP
+    - [Encapsulation exercise]()
+    - [Boris Bikes]()
+    - [Airport]()
 
 
-[Week outline]()
+#### What I've learnt
 
-[Processes I've created and followed]()
+_Things I've learnt or improved, and links to examples._
 
-[What have I learnt... reflections and evidence]()
+- **Concrete things** (e.g. written a test or set up rspec)
+  - [Example]()
+
+- **Concepts** (e.g. TDD or user stories)
+  - [Example]()
+
+- **Processes** (e.g. debugging or problem breakdown -> TDD)
+  - [Debugging process]()
+  - [Problem breakdown and TDD process]()
+
+- **Behaviours** (or my mindset when approaching certain things)
+  - [Refactoring - see day 5]()
 
 
-#### Week 2
+[Raw notes](https://github.com/mattTea/Portfolio/blob/master/notes/week_1_raw_notes.md)

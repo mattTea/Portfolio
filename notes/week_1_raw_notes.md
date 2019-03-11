@@ -4,7 +4,7 @@ Schedule: https://airtable.com/shrRMPTxzEWim8r7r
 
 
 ## WEEK 1
-#### DAY 1
+## DAY 1
 
 Each day fork or clone repo of person who is not as far in challenges. And collaborate on same repo 
 - Fork - clone to your github repo
@@ -56,7 +56,7 @@ This morning, before you start, take some time to reflect on what you have learn
 There may be some new concrete things you have done like write a test or set up rspec
 There may be some new concepts, like user stories, TDD, classes and methods
 There may be some processes you have followed, like the debugging process, unblocking yourself through research or test-driving
-And finally some new behaviours or mindset that you have picked up on like keeping my goal in mind when learning or rephrasing some of my thought from "I can't do this" to "I cannot do this yet, but here's how I'll try"
+And finally some new behaviours or mindset that you have picked up on like keeping my goal in mind when learning or rephrasing some of my thoughts from "I can't do this" to "I cannot do this yet, but here's how I'll try"
 
 At Makers, we believe that the last two, processes and behaviours are the ones most worth acquiring during your time with us.
 
@@ -235,151 +235,166 @@ Focus on breaking down problem process…
   - => check_birthday(today’s date)
   - => "It's Mary Poppin's birthday today! They are 124 years old!"
 
-Object model…
+2. Object model…
 
-	As a good person,
+```
+As a good person,
 So that I don’t miss a friend’s birthday,
 I'd like to know if any friends have a birthday today.
+```
 
-Object
-Messages
+Object | Messages
+----------------- | ----------------------
 Good_person
+Friend | birthday_today?
 
 
-Friend
-birthday_today?
-
-
-Rubocop linting
+**Rubocop linting**
 
 The letters correspond to the problems found in the file under inspection.
-C is for convention
-W is for warning
-E is for error
-F is for fatal
-. means that no problems were found in the file
+**C** is for `convention`
+**W** is for `warning`
+**E** is for `error`
+**F** is for `fatal`
+**.** means that no problems were found in the file
 
-Linting done for my own files (not the _solution file)
-
-
-
-
-Does TDD Guarantee Higher Code Quality?
-
-“Code has to be evolved as it's being test driven in order to ensure it follows SOLID principles, removes code smells and makes effective use of design patterns”
-
-SOLID = 
-Single responsibility principle[6]
-A class should have only a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
-Open–closed principle[7]
-"Software entities ... should be open for extension, but closed for modification."
-Liskov substitution principle[8]
-"Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." See also design by contract.
-Interface segregation principle[9]
-"Many client-specific interfaces are better than one general-purpose interface."[4]
-Dependency inversion principle[10]
-One should "depend upon abstractions, [not] concretions."[4]
+Linting done for my own files (not the `_solution` file)
 
 
 
-Encapsulation
 
-https://diode.makersacademy.com/students/dearshrewdwit/projects/2703
+[Does TDD Guarantee Higher Code Quality?](https://github.com/makersacademy/course/blob/master/pills/tdd_quality_discussion.md)
 
-Skills workshop… https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/encapsulation.md
+“_Code has to be evolved as it's being test driven in order to ensure it follows SOLID principles, removes code smells and makes effective use of design patterns_"
 
-Cohesion
+#### SOLID
+
+SOLID | Definition
+-------------------- | ----------------------------------------
+**Single responsibility principle** | A class should have only a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+** Open–closed principle** | "Software entities ... should be open for extension, but closed for modification."
+**Liskov substitution principle** | "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." See also design by contract.
+**Interface segregation principle** | "Many client-specific interfaces are better than one general-purpose interface."
+**Dependency inversion principle** | One should "depend upon abstractions, (not) concretions."
+
+
+#### OOP
+
+**Encapsulation**
+
+[Encapsulation exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/2703)
+
+[Skills workshop](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/encapsulation.md)
+
+
+**Cohesion**
 
 Each class should have one purpose or job, sometimes referred to as its responsibility.
 A class has high cohesion when everything inside of it relates to that purpose, without anything extraneous. Perfection is achieved when there is nothing left to take away.
 
-Exercise 1-2
 
-Group methods in example...
-https://docs.google.com/spreadsheets/d/1W4UJHaYvUUx6f2zui_N25YbReJBq_pvXFgTD6LmhMgw/edit?usp=sharing
+1. Exercise 1-2
+
+Group methods in [example](https://docs.google.com/spreadsheets/d/1W4UJHaYvUUx6f2zui_N25YbReJBq_pvXFgTD6LmhMgw/edit?usp=sharing)
 
 
-Exercise 4
+2. Exercise 4
 
 How would user expect to interact?
-For new diary -> get/create (initialize) new diary
+
+- For new diary -> get/create (initialize) new diary
+```
 => SecretDiary.new
+```
 
 To unlock diary
 =>
 
+(_Incomplete exercise here_)
 
 
+#### Behaviour changes (what I've learnt)
 
-
-Behaviour changes… have focused a lot more on refactoring yesterday and today, including refactoring tests (removing is needed), and SRP
+Have focused a lot more on refactoring yesterday and today, including refactoring tests (removing is needed), and SRP
 Trying to push pair partners (and myself) to break down tests (and features/problem) to smallest element 
 
 
+#### Problem Solving workshop
 
-Problem Solving workshop
-
-What is your process to break down the following problem…?
+_What is your process to break down the following problem…?_
 
 Build a romans numerals prog
-Take arabic no.
-Convert to roman numerals (for numbers up to 10)
+- Take arabic no.
+- Convert to roman numerals (for numbers up to 10)
 
-How would user expect this to work?
+1. How would user expect this to work?
+
+```
 => roman_numeral(10)
 => “X”
+```
 
-User stories
+2. User stories
 
+```
 As a person
 So that I can tell the time on my roman clock
 I want to be able convert arabic numbers to roman numerals
+```
 
 
 Break stuff down to simplest things… (and these below, actually become the tests!)
 
+```
 return a single type (string)
+```
 
+```
 converts 0 to “”
+```
 
+```
 converts 1 to “I”
+```
 
+```
 converts 2 to “II”
+```
 
+```
 converts 5 to “V”
+```
 
 
+3. Object model
 
-Object model
-
-Object
-Messages
-Person
-
-
-Arabic_number
-convert_to_roman_numeral
+Object | Messages
+----------------- | --------------------
+Person |
+Arabic_number | convert
 
 
-First tests…
+4. First tests…
 
+```
 it “responds to convert… method” do
 	
 end
+```
 
+```
 it “returns ‘X’ for arabic number of 10” do
 	expect(convert_to_roman_numeral(10)).to eq “X”
 end
+```
 
-First code…
+5. First code…
 
-def converconvert_to_roman_numeral
-
-
-
-
-
+```
+def convert
+end
+```
 
 
-Simplest test
-Simplest code to pass the test
+_Simplest test_
+_Simplest code to pass the test_
