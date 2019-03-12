@@ -17,9 +17,9 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
     - [Debugging workshop]()
 
 4. Describe some basic OO principles like encapsulation, SRP
-    - [Encapsulation exercise]()
-    - [Boris Bikes]()
     - [Airport]()
+    - [Boris Bikes]()
+    - [Encapsulation exercise]()
 
 
 #### What I've learnt

@@ -1,5 +1,5 @@
 ## WEEK 2
-#### DAY 1
+## DAY 1
 
 #### Code Review Workshop
 
@@ -128,3 +128,40 @@ _Stretch for the week... Gilded Rose Design project -> speak to Sophie first if 
 - Feedback from Riya
   - _Found the breaking down of each user story and problem into an object model table and example feature test (in irb) of how the program would work really useful in planning how we would step through the problem._
   - _Kept great timing to make sure we switched and kept an even split between driver and navigator._
+
+
+## DAY 2
+
+From Sophie...
+
+This morning's suggested resource covers dependency injection. Get comfortable applying this technique in order to make sure your classes, and therefore your tests, are isolated.
+
+Here is the practical exercise: https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/dependency_injection.md
+
+
+#### Pairing with Matt Stockman
+
+Working through steps 6-12 of oystercard
+
+Using doubles has been the most difficult concept today, both morning and afternoon
+- Starting to understand the use of a double in a test
+```
+let(:in_station){ double :in_station }
+```
+same as...
+```
+in_station = double :in_station
+```
+  - The above lets us use an `in_station` variable throughout the test suite, without having to set the necessary behaviours
+
+  - We can set methods we want it to respond to as well, as per an example from the morning session...
+```
+expect(car_double).to receive(:drive_away)
+```
+
+ #### To work further on
+
+- How to effectively use `Context` blocks in rspec
+- READMEs
+- More on doubles
+- Write up code review process 

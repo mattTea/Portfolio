@@ -7,16 +7,21 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 #### Goals
 
-1. ...
+Review another person's code and give them meaningful feedback
+
+1. Break one class into two classes that work together, while maintaining test coverage
     - [Example project]()
 
-2. ...
+2. Unit test classes in isolation using mocking
     - [Example project]()
 
-3. ...
+3. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
     - [Example project]()
 
-4. ...
+4. Review another person's code and give them meaningful feedback
+    - Riya's airport challenge [pull request](https://github.com/makersacademy/airport_challenge/pull/1346)
+
+5. Use all of week 1's skills
     - [Example project]()
 
 
@@ -31,7 +36,7 @@ _Things I've learnt or improved, and links to examples._
   - [Example]()
 
 - **Processes** (e.g. debugging or problem breakdown -> TDD)
-  - [Example]()
+  - [My code review process]()
 
 - **Behaviours** (or my mindset when approaching certain things)
   - [Example]()
