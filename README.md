@@ -29,12 +29,12 @@
 
 #### Projects
 
-[TDD Practice 1]()
+[TDD Practice 1](https://github.com/mattTea/Portfolio/blob/master/projects/tdd_practice_1.md)
 
-[Boris Bikes]()
+[Boris Bikes](https://github.com/mattTea/Portfolio/blob/master/projects/boris_bikes.md)
 
 [OOD - Encapsulation]()
 
-[Airport]()
+[Airport](https://github.com/mattTea/Portfolio/blob/master/projects/airport.md)
 
 [Oystercard]()

@@ -35,3 +35,7 @@ You didn’t make me feel in any way inferior for not having reached the same po
 #### Updates and comments
 
 Project completed: [8th March 2019](https://github.com/mattTea/boris_bikes)
+
+Started to build and improve my [problem breakdown process]()
+
+Started to build and improve my [debugging process]()
