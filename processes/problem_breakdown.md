@@ -33,4 +33,28 @@ airport | land_plane
   
 ```
 
-7. Each object can be a separate file
+7. Write down series of the simplest things to build up from (this can eventually become your tests)
+
+_Below example from roman numeral converter_
+
+```
+return a single type (string)
+```
+
+```
+converts 0 to “”
+```
+
+```
+converts 1 to “I”
+```
+
+```
+converts 2 to “II”
+```
+
+```
+converts 5 to “V”
+```
+
+8. Each object can be a separate file
