@@ -393,3 +393,92 @@ Takes `courage` to give feedback - one of the XP values
 - "Believe in your own ability and conviction more"
 - "Take more breaks, as we burnt out a bit by the end"
 - "Great session and really want to carry on working with you!"
+
+
+**Ideas to do more of**
+- Incorporate domain models into airport or an earlier challenge
+- Incorporate `context` blocks and `doubles` into airport or an earlier challenge
+
+
+#### DAY 4
+
+[Delegation Workshop](https://github.com/mattTea/skills-workshops/tree/master/week-2/oop_3)
+
+Object-oriented delegation and encapsulation
+
+_Delegation_: pass responsibility to another class, to get some information back
+- One class telling another class to do something and the other class encapsulating how to do it.
+
+_Encapsulation_: stuff about an object that isn't available outside that class
+
+Delegation happens in [code](https://github.com/mattTea/skills-workshops/blob/master/week-2/oop_3/company_structure.rb) where an injected class calls its methods
+- i.e. in `Coo` class in example, `hr_manager` is injected, and delegation happens when `@hr_manager.reduce_payroll` is called
+
+`Sequence diagram` just outlines the delegation between classes
+
+Inject class rather than call `.new` is to allow testing classes in isolation, but also to allow ease of change of classes
+- Look at **polymorphism**
+- Look at Gilded Rose example for refactoring to learn polymorphism
+
+Pattern to supprt code being extensible and easy to change...
+- Line 64 -> creates a new instance (lydia) and then injects this instance into a new COO (brad)
+
+Image of [class diagram](https://github.com/mattTea/Portfolio/blob/master/images/company_class_diagram.jpg)
+Image of [sequqnce diagram (photo)](https://github.com/mattTea/Portfolio/blob/master/images/company_sequence_diagram.jpg)
+Image of [sequence diagram (drawn)](https://github.com/mattTea/Portfolio/blob/master/images/oop_3_sequence_diagram.jpeg)
+
+Probably create a default value for instances of dependencies injected
+
+
+**Exercise**
+
+- Aim to extract one class to start with
+- But try to extract more!
+
+- Don't change `feature_spec.rb`
+- Get todo_list and spec complete (2 classes)
+- Aim for 3 or 4
+
+
+**Sophie's notes**
+
+Notes:
+- Delegation - one class instructing another class to do something
+- Encapsulation - a class includes the state and behaviour to do something
+- Aim to extract the `terrible` example into classes, for `great`
+- Keep your feature tests passing as much as possible
+- Dependency Injection enables delegation, while keeping classes isolated
+
+
+**Solution**
+
+[Solution code](https://github.com/mattTea/skills-workshops/tree/master/week-2/oop_3/solution-do-not-look-until-the-end)
+
+- I almost got to 3 classes
+- Solution had 4!
+
+- Injecting the class (rather than an instance) means we can create as many instances as we want, like this...
+```
+def add(description, todo_class = Todo)
+  @todos << todo_class.new(description)
+end
+```
+- Also if you dont have state in a class, you don't need ann instance (class just has behaviour methods)
+
+
+See diagram on board for how to sequence over a class without interacting (TodoList -> TodoListPrinter, without going via Todo) [diagram](https://github.com/mattTea/Portfolio/blob/master/images/todo_solution.jpeg) (can delegate through the levels)
+
+**Ordering of expectation** in tests when using double in code (`todo_class = Todo`)
+
+Look at [todo_list solution spec](https://github.com/mattTea/skills-workshops/blob/master/week-2/oop_3/solution-do-not-look-until-the-end/spec/todo_list_spec.rb), esp ording of test when testing behaviour of mocks (`expect` assertion is made before the delegation call)
+- Set expectation, as double needs to know that something is going to happen, and will need to fail if it doesn't happen
+- This is why the ordering looks weird on lines 24 and 25 of todo_list solution spec
+
+- _Always target testing behaviour over state_
+
+- To learn about this above testing behaviour Sophie will check if any materials available
+  - (Note that there are other ways to achieve the above wihtout this weird order)
+
+
+_Always think about what the most useful thing a method can return, esp is tempted to return a string_
+
