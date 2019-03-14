@@ -482,3 +482,8 @@ Look at [todo_list solution spec](https://github.com/mattTea/skills-workshops/bl
 
 _Always think about what the most useful thing a method can return, esp is tempted to return a string_
 
+
+
+
+
+let(:in_station) { double :in_station_stub } <- could call the double :in_station anything here - its is just saying I assume the input is correct when you use the `in_station` var name in the test
