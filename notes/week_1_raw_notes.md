@@ -42,7 +42,8 @@ Test-drive a simple program using objects and methods
 
 
 ## DAY 2
-**(Tuesday) log…**
+
+**(Tuesday) log**
 
 Pairing - both timer and ping-pong on tests
 TDD using rspec - assertion methods
@@ -69,13 +70,14 @@ Each morning, or each night, reflect on what you have learnt, and focus especial
 How would you describe your newly acquired processes? What are the steps that you have taken to achieve something.
 
 How would you describe your mindset? Have things changed in your behaviour as you were pairing or writing code?
-============
+
 
 Writing down my debugging process
 - Every day write down one process
 
 
 ## DAY 3
+
 Attr_reader use and syntax
 - Interesting that it has symbol like syntax (:bikes), but when the variable is read within the class methods it still needs instance variable syntax (@bikes)
 
@@ -87,6 +89,7 @@ Some pairing feedback from Paul Martin today…
 
 
 ## DAY 4
+
 _Reflection_
 
 **Process**
@@ -132,7 +135,7 @@ _Pairing (not necessarily formal pairing)_
   - Next process to reflect on, **how I write the next meaningful test** in TDD
 
 
-**Workshop: Debugging process**
+#### Debugging process workshop
 
 Objectives
 1. Explain what debugging is
@@ -216,7 +219,7 @@ Bug 3 process (Alice)
 
 
 
-**Pairing notes…**
+**Pairing notes**
 
 - Calling a CONSTANT in rpsec file needs to also include the Class context (not the instance of the class), like this… **Class::CONSTANT**
 
@@ -226,6 +229,7 @@ _You didn’t make me feel in any way inferior for not having reached the same p
 
 
 ## DAY 5
+
 **Continuing with birthdays challenge**
 
 Focus on breaking down problem process…

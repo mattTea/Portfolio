@@ -10,10 +10,10 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 Review another person's code and give them meaningful feedback
 
 1. Break one class into two classes that work together, while maintaining test coverage
-    - [Example project]()
+    - [Oyestercard]()
 
 2. Unit test classes in isolation using mocking
-    - [Example project]()
+    - [Oystercard]()
 
 3. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
     - [Example project]()

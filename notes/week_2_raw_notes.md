@@ -400,7 +400,7 @@ Takes `courage` to give feedback - one of the XP values
 - Incorporate `context` blocks and `doubles` into airport or an earlier challenge
 
 
-#### DAY 4
+## DAY 4
 
 [Delegation Workshop](https://github.com/mattTea/skills-workshops/tree/master/week-2/oop_3)
 
@@ -466,7 +466,7 @@ end
 - Also if you dont have state in a class, you don't need ann instance (class just has behaviour methods)
 
 
-See diagram on board for how to sequence over a class without interacting (TodoList -> TodoListPrinter, without going via Todo) [diagram](https://github.com/mattTea/Portfolio/blob/master/images/todo_solution.jpeg) (can delegate through the levels)
+See diagram on board for how to sequence over a class without interacting (TodoList -> TodoListPrinter, without going via Todo) [diagram](https://github.com/mattTea/Portfolio/blob/master/images/todo_solution.jpg) (can delegate through the levels)
 
 **Ordering of expectation** in tests when using double in code (`todo_class = Todo`)
 
@@ -483,7 +483,38 @@ Look at [todo_list solution spec](https://github.com/mattTea/skills-workshops/bl
 _Always think about what the most useful thing a method can return, esp is tempted to return a string_
 
 
+**Pairing with James Palmer**
+
+Note on doubles syntax in rspec
+
+- `let(:in_station) { double :in_station_stub }` <- could call the double :in_station anything here - its is just saying I assume the input is correct when you use the `in_station` var name in the test
 
 
+## DAY 5
 
-let(:in_station) { double :in_station_stub } <- could call the double :in_station anything here - its is just saying I assume the input is correct when you use the `in_station` var name in the test
+Check in on Riya and Sam's repo for how they double `Journey` (and `Journey Class`) in their Oystercard tests
+- Repo called samanthaixer/oystercard_thurs
+
+TODO
+- Refactor some of the Oystercard tests and update the Journey tests, including doubles
+- Write up my class extraction process
+
+- Write what I've learnt about `high cohesion` and `loose coupling`, `delegation` and `encapsulation`, [testing behaviour not state](https://github.com/mattTea/skills-workshops/blob/master/practicals/testing/behaviour_not_state.md)
+
+
+**Stubs, Mocks and Spies in RSpec**
+https://about.futurelearn.com/blog/stubs-mocks-spies-rspec
+
+
+**Ruby and Rspec doubles tutorials**
+https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations
+
+http://testing-for-beginners.rubymonstas.org/test_doubles.html
+
+https://thoughtbot.com/upcase/videos/telling-a-story-with-your-tests
+
+
+**Useful technology cheatsheets**
+https://devhints.io/rspec
+
+
