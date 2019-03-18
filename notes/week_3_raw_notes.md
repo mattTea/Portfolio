@@ -45,14 +45,14 @@ More on dependency injection - `open/close` principle -> check back on SOLID for
 Regarding my multiple `expect` statements in a single test, some questions she asked, as it looked like a code smell...
 
 1. Can you add flexibility to `@orders` and `@dishes`?
-    - Yes, by removing their hard coded values (e.g. `@orders = []`) and moving them to be parameters in `initialise` with these as default values
+    - Yes, by removing their hard coded values (e.g. `@orders = []`) and moving them to be parameters in `initialize` with these as default values
     - This means instead of tying myself in knots trying to double these in the tests I can just set up a variable with the state I need before writing the assertion (examples in [this file](https://github.com/mattTea/takeaway-challenge/blob/master/spec/menu_spec.rb))
 
 2. Can you simplify the method you are trying to test?
     - Yes, this is the `select_dish` method and it was doing a few checks before it did its thing
     - I have now extracted this out to a `check_order_status` method
 
-3. Are you methods correctly named for what they are doing?
+3. Are your methods correctly named for what they are doing?
     - One to keep an eye on!
 
 All tests now only have a single expect statement
