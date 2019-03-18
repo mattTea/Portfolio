@@ -7,12 +7,12 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 #### Goals
 
-Review another person's code and give them meaningful feedback
-
 1. Break one class into two classes that work together, while maintaining test coverage
-    - [Oyestercard]()
+    - [Takeaway]()
+    - [Oystercard]()
 
 2. Unit test classes in isolation using mocking
+    - [Takeaway]()
     - [Oystercard]()
 
 3. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
@@ -30,16 +30,21 @@ Review another person's code and give them meaningful feedback
 _Things I've learnt or improved, and links to examples._
 
 - **Concrete things** (e.g. written a test or set up rspec)
-  - [Example]()
+  - [Class model]()
+  - [Sequence diagram]()
 
 - **Concepts** (e.g. TDD or user stories)
-  - [Example]()
+  - [Encapsulation and delegation]()
+  - [Dependency injection]()
+  - [Test doubles and mocks]()
 
 - **Processes** (e.g. debugging or problem breakdown -> TDD)
   - [My code review process]()
+  - [My problem break down and domain modelling process]()
 
 - **Behaviours** (or my mindset when approaching certain things)
-  - [Example]()
+  - Testing for behaviour, not state - [example]()
+  - Refactoring - [example]()
 
 
 [Raw notes](https://github.com/mattTea/Portfolio/blob/master/notes/week_2_raw_notes.md)
