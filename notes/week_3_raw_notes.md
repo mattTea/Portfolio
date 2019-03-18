@@ -4,23 +4,23 @@
 
 #### Weekend challenge code review
 
-1. Where do you start?
-  - Readme
-  - Run tests
-  - Commits (and messages) - should read as a story
-  - (Focus on what you want to learn first!)
+1. **Where do you start?**
+    - Readme
+    - Run tests
+    - Commits (and messages) - should read as a story
+    - (Focus on what you want to learn first!)
 
-2. How identify quick wins (and what are they)?
-  - Class and method naming -> doing what they say they do
-  - Single responsibililty (methods and classes)
-  - Shorter methods
-  - (Use a linter / test coverage)
+2. **How identify quick wins (and what are they)?**
+    - Class and method naming -> doing what they say they do
+    - Single responsibililty (methods and classes)
+    - Shorter methods
+    - (Use a linter / test coverage)
 
-3. Has the person aligned the pull request to a goal?
-  - _I think this PR is aligned to 'x' and this is why_
+3. **Has the person aligned the pull request to a goal?**
+    - _I think this PR is aligned to 'x' and this is why_
 
 
-**Further notes on code reviews**
+#### Further notes on code reviews
 
 - Good TDD evidence
   - Commit regularly, probably before refactoring once a test passes, so you can see the test passing and the refactoring steps in the commit message
@@ -31,6 +31,7 @@
 
 Testing state is kind of ok as a starting point to test drive the class, but should then be replaced by a test that tests behaviour (testing a method that manipulates the value)
 - Tests should be calling a method, not an attribute
+
 
 **Feature test** should use real instances of classes (to test on top of things that may be using doubles in unit tests)
 
@@ -44,15 +45,15 @@ More on dependency injection - `open/close` principle -> check back on SOLID for
 Regarding my multiple `expect` statements in a single test, some questions she asked, as it looked like a code smell...
 
 1. Can you add flexibility to `@orders` and `@dishes`?
-  - Yes, but removing their hard coded values `@orders = []` and moving the to the initialise args with these as default values)
-  - This means instead of tying myself in knots trying to double these in the tests I can just set up a variable with the state I need before writing the assertion
+    - Yes, by removing their hard coded values (e.g. `@orders = []`) and moving them to be parameters in `initialise` with these as default values
+    - This means instead of tying myself in knots trying to double these in the tests I can just set up a variable with the state I need before writing the assertion (examples in [this file](https://github.com/mattTea/takeaway-challenge/blob/master/spec/menu_spec.rb))
 
 2. Can you simplify the method you are trying to test?
-  - Yes, this is the `select_dish` method and it was doing a few checks before it did its thing
-  - I have now extracted this out to a `check_order_status` method
+    - Yes, this is the `select_dish` method and it was doing a few checks before it did its thing
+    - I have now extracted this out to a `check_order_status` method
 
 3. Are you methods correctly named for what they are doing?
-  - One to keep an eye on!
+    - One to keep an eye on!
 
 All tests now only have a single expect statement
 
