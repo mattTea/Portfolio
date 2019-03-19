@@ -1,6 +1,6 @@
 # Matt Thompson - Portfolio
 
-This is my learning journey whilst at Makers Academy.
+This is my learning journey at Makers Academy.
 
 It includes examples of my work, challenges completed, and the processes I have learnt and developed while working towards the following goals.
 

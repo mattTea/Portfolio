@@ -45,7 +45,7 @@ I can answer _yes_ to the following...
 
 Project completed: [17th March 2019](https://github.com/mattTea/airport_challenge)
 
-Code review comments against pull request [here](Sam's/code/review)
+Code review comments against pull request [here](https://github.com/makersacademy/takeaway-challenge/pull/1260)
 
 Processes I believe have improved through this project
 - Feature testing ([before]() and [after]())
