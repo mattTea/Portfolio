@@ -1,5 +1,10 @@
 # Matt Thompson - Portfolio
 
+This is my learning journey whilst at Makers Academy.
+
+It includes examples of my work, challenges completed, and the processes I have learnt and developed while working towards the following goals.
+
+
 ## My Goals
 
 #### 1. I can build anything
@@ -29,12 +34,16 @@
 
 #### Projects
 
-[TDD Practice 1](https://github.com/mattTea/Portfolio/blob/master/projects/tdd_practice_1.md)
+[Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
-[Boris Bikes](https://github.com/mattTea/Portfolio/blob/master/projects/boris_bikes.md)
+[Takeaway](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md)
 
-[OOD - Encapsulation]()
+[Oystercard](https://github.com/mattTea/Portfolio/blob/master/projects/oystercard.md)
 
 [Airport](https://github.com/mattTea/Portfolio/blob/master/projects/airport.md)
 
-[Oystercard]()
+[Boris Bikes](https://github.com/mattTea/Portfolio/blob/master/projects/boris_bikes.md)
+
+[OOD - Encapsulation](https://github.com/mattTea/Portfolio/blob/master/projects/ood_encapsulation.md)
+
+[TDD Practice 1](https://github.com/mattTea/Portfolio/blob/master/projects/tdd_practice_1.md)

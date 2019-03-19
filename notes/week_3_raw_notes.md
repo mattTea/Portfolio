@@ -2,7 +2,7 @@
 
 ## DAY 1
 
-#### Weekend challenge code review
+### Weekend challenge code review
 
 1. **Where do you start?**
     - Readme
@@ -20,7 +20,7 @@
     - _I think this PR is aligned to 'x' and this is why_
 
 
-#### Further notes on code reviews
+### Further notes on code reviews
 
 - Good TDD evidence
   - Commit regularly, probably before refactoring once a test passes, so you can see the test passing and the refactoring steps in the commit message
@@ -40,7 +40,7 @@ Exemplar of both previous week challenges to be shared by Katerina
 More on dependency injection - `open/close` principle -> check back on SOLID for code quality
 
 
-#### Chat with Katerina
+### Chat with Katerina
 
 Regarding my multiple `expect` statements in a single test, some questions she asked, as it looked like a code smell...
 
@@ -64,7 +64,8 @@ All tests now only have a single expect statement
 
 [Intro to the web](https://github.com/makersacademy/course/tree/master/intro_to_the_web)
 
-#### Primary goal
+
+### Primary goal
 
 **Can you build a web app?**
 
@@ -77,7 +78,7 @@ All tests now only have a single expect statement
 - Explain the MVC pattern
 
 
-#### Afternoon challenge
+### Afternoon challenge
 
 **Intro to MVC**
 
@@ -101,7 +102,130 @@ _The query string on the /named-cat page has disappeared. This is because POST r
 `http://capybaraworkout.herokuapp.com/workout` to do workout
 
 
-#### Challenge example solutions
+### Challenge example solutions
 
 [Takeaway exemplar](https://github.com/makersacademy/takeaway-exemplar) - includes [youTube walk through](https://youtu.be/mgiJKdH9x8c)
+
 [Airport exemplar](https://github.com/makersacademy/airport_challenge/pull/1238), with clear definition between feature and unit tests - [youTube walk through](https://www.youtube.com/watch?v=Vg0cFVLH_EM)
+
+
+### Feedback from Tomé Jesus
+
+_Really liked the pace we worked at too and especially liked that we were putting in the effort to figure things out before looking at the walkthroughs - that definitely did a lot to galvanise what was learned. Although, I went through the walkthroughs this morning and recommend giving them another read - I filled in a few gaps this way. Thanks for sharing the knowledge, 100% look forward to the next session!_
+
+
+## DAY 2
+
+### Process modelling workshop
+
+[Workshop repo](https://github.com/mattTea/skills-workshops/tree/master/week-3/process_modelling)
+
+A server is just a program
+
+As a web dev your job is to write servers -> when I get a request how do I execute code to serve the correct response
+
+(Only code that executes on browser is `JavaScript`)
+
+`HyperText` is just a link (or a window into another document)
+- Check out networking book mentioned by Alice
+
+
+#### Home page process model
+
+1. From `Browser` user visits `url`
+
+2. `Browser` passes request (e.g. `GET`) to `Network`
+
+3. `Network` passes request to `Server`
+
+4. `Server` searches for `resource`
+
+5. If found `Server` writes reponse that includes
+    - Response headers that include
+        - Version of http
+        - Response code (`200` if ok)
+
+    - Response body (`html`)
+      (reponses come back bit-by-bit, in `packets`)
+
+6. `Browser` parses the response
+
+7. `Browser` renders the response (how it would look on the page)
+
+8. `Browser` paints the response (putting it on the page)
+
+9. See the `html` in the browser
+
+
+**Waterfall** in dev tools shows all the various states the request has gone through
+- Connection set-up
+- Request/response
+
+
+#### Process exercises...
+
+**1. Cat page**
+
+Step | Client | Network | Server
+---- | ------------------------- | ------------------------- | -------------------------
+1. | click cat pic link |  | 
+2. |  | http GET /cats.html | 
+3. |  |  | searches for resource
+4. |  |  | finds resource
+5. |  | returns HTML and 200 (OK) | 
+6. | parse |  | 
+7. | render |  | 
+8. | paint |  | 
+9. | shows html |  | 
+10. | request cat.jpg | 
+11. |  | http GET /cats.html | 
+12. |  |  | searches for resource
+13. |  |  | finds resource
+14. |  | returns HTML and 200 (OK) | 
+15. | parse |  | 
+16. | render |  | 
+17. | paint |  | 
+18. | shows image |  | 
+
+
+------
+
+**2. Mailing list**
+
+Step | Client | Network | Server
+---- | ------------------------- | ------------------------- | -------------------------
+1. | click link |  | 
+2. |  | http GET /list.html | 
+3. |  |  | searches for resource
+4. |  |  | finds resource
+5. |  | returns HTML and 200 (OK) | 
+6. | parse |  | 
+7. | render |  | 
+8. | paint |  | 
+9. | shows html (form) |  | 
+10. | enter details and submit form |  | 
+11. |  | http POST email form | 
+12. |  |  | searches for resource
+13. |  |  | finds resource
+14. |  | returns HTML and 200 (OK) | 
+15. | parse |  | 
+16. | render |  | 
+17. | paint |  | 
+18. | shows thanks.html page |  | 
+
+
+**Questions**
+
+1. When the browser gets a response with an `img` in an html response it fires the next request to get that image when it finds it during the Parse stage in the browser (we think - check!)
+
+2. Can http make more than one request at the same time?
+
+
+**Notes**
+
+`GET` request doesn't pass anything in the body, doesn't have one (but can pass info in query params)
+`POST` request passes data in body and keeps query params clean (e.g. form data)
+
+
+
+**Pairing feedback from Alex Chen** feedback - methodical approach when we has problems and things didn't work as expected. 
