@@ -47,3 +47,17 @@ It includes examples of my work, challenges completed, and the processes I have 
 [OOD - Encapsulation](https://github.com/mattTea/Portfolio/blob/master/projects/ood_encapsulation.md)
 
 [TDD Practice 1](https://github.com/mattTea/Portfolio/blob/master/projects/tdd_practice_1.md)
+
+------
+
+#### Processes
+
+[TDD](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
+
+[Debugging](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
+
+[Problem breakdown](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md)
+
+[Code review](https://github.com/mattTea/Portfolio/blob/master/processes/code_review.md)
+
+[Class extraction](https://github.com/mattTea/Portfolio/blob/master/processes/class_extraction.md)
