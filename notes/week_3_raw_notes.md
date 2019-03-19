@@ -166,52 +166,52 @@ As a web dev your job is to write servers -> when I get a request how do I execu
 
 **1. Cat page**
 
-Client | Network | Server
-------------------------- | ------------------------- | -------------------------
-click cat pic link |  | 
- | http GET /cats.html | 
- |  | searches for resource
- |  | finds resource
- | returns HTML and 200 (OK) | 
-parse |  | 
-render |  | 
-paint |  | 
-shows html |  | 
-request cat.jpg | 
- | http GET /cats.html | 
- |  | searches for resource
- |  | finds resource
- | returns HTML and 200 (OK) | 
-parse |  | 
-render |  | 
-paint |  | 
-shows image |  | 
+Step | Client | Network | Server
+---- | ------------------------- | ------------------------- | -------------------------
+1 | click cat pic link |  | 
+2 |  | http GET /cats.html | 
+3 |  |  | searches for resource
+4 |  |  | finds resource
+5 |  | returns HTML and 200 (OK) | 
+6 | parse |  | 
+7 | render |  | 
+8 | paint |  | 
+9 | shows html |  | 
+10 | request cat.jpg | 
+11 |  | http GET /cats.html | 
+12 |  |  | searches for resource
+13 |  |  | finds resource
+14 |  | returns HTML and 200 (OK) | 
+15 | parse |  | 
+16 | render |  | 
+17 | paint |  | 
+18 | shows image |  | 
 
 
 ------
 
 **2. Mailing list**
 
-Client | Network | Server
-------------------------- | ------------------------- | -------------------------
-click link |  | 
- | http GET /list.html | 
- |  | searches for resource
- |  | finds resource
- | returns HTML and 200 (OK) | 
-parse |  | 
-render |  | 
-paint |  | 
-shows html (form) |  | 
-enter details and submit form |  | 
- | http POST email form | 
- |  | searches for resource
- |  | finds resource
- | returns HTML and 200 (OK) | 
-parse |  | 
-render |  | 
-paint |  | 
-shows thanks.html page |  | 
+Step | Client | Network | Server
+---- | ------------------------- | ------------------------- | -------------------------
+1 | click link |  | 
+2 |  | http GET /list.html | 
+3 |  |  | searches for resource
+4 |  |  | finds resource
+5 |  | returns HTML and 200 (OK) | 
+6 | parse |  | 
+7 | render |  | 
+8 | paint |  | 
+9 | shows html (form) |  | 
+10 | enter details and submit form |  | 
+11 |  | http POST email form | 
+12 |  |  | searches for resource
+13 |  |  | finds resource
+14 |  | returns HTML and 200 (OK) | 
+15 | parse |  | 
+16 | render |  | 
+17 | paint |  | 
+18 | shows thanks.html page |  | 
 
 
 **Summary from Alice**
