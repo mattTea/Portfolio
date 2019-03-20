@@ -58,3 +58,5 @@ converts 5 to “V”
 ```
 
 8. Each object can be a separate file
+
+9. Create domain models as necessary (class model, sequence diagarm)

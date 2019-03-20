@@ -1,11 +1,12 @@
-## Week 2
+# Week 2
 
 _A weekly journal to keep track of the work I am doing towards each of the goals._
 
 [Weekly outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/)
 
+------
 
-#### Goals
+## Goals
 
 1. Break one class into two classes that work together, while maintaining test coverage
     - [Takeaway]()
@@ -24,8 +25,9 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 5. Use all of week 1's skills
     - [Example project]()
 
+------
 
-#### What I've learnt
+## What I've learnt
 
 _Things I've learnt or improved, and links to examples._
 
@@ -46,5 +48,7 @@ _Things I've learnt or improved, and links to examples._
   - Testing for behaviour, not state - [example]()
   - Refactoring - [example]()
 
+
+------
 
 [Raw notes](https://github.com/mattTea/Portfolio/blob/master/notes/week_2_raw_notes.md)

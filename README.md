@@ -7,7 +7,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## My Goals
 
-#### 1. I can build anything
+#### 1. I can make anything
 
 - [I can TDD anything](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md)
 - [I can program fluently](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md)
@@ -61,3 +61,13 @@ It includes examples of my work, challenges completed, and the processes I have 
 [Code review](https://github.com/mattTea/Portfolio/blob/master/processes/code_review.md)
 
 [Class extraction](https://github.com/mattTea/Portfolio/blob/master/processes/class_extraction.md)
+
+------
+
+#### Weekly goals
+
+[Week 3](https://github.com/mattTea/Portfolio/blob/master/notes/week_3.md)
+
+[Week 2](https://github.com/mattTea/Portfolio/blob/master/notes/week_2.md)
+
+[Week 1](https://github.com/mattTea/Portfolio/blob/master/notes/week_1.md)

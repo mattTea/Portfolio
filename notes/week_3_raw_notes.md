@@ -237,7 +237,141 @@ This morning we covered the *HTTP request/response cycle* in our workshop.
 `POST` request passes data in body and keeps query params clean (e.g. form data)
 
 
+#### Afternoon Battle challenge
 
 **Pairing feedback from Alex Chen**
 
 Methodical approach when we had problems and things didn't work as expected. You took things step by step to work through it, and focused only on the next step to be able to move forward.
+
+
+## DAY 3
+
+Completed `Servers` practical with Amy -> add this to Portfolio
+
+[Servers challenge repo](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
+
+
+#### Debugging web apps
+
+[Github repo for challenge](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2)
+
+**The mantra...**
+
+1. Tighten the loop
+2. Get visibility
+
+
+Use the mantra the debug across the web stack
+
+In a `Server`...
+- `View` files (.erb) -> html, ruby
+- `Controller` files (app.rb) -> for routing
+- `Model` files (in /lib) -> Class files
+- `Gems`
+- `Config` files
+- `Assets` (static, public) -> img, css files, etc
+
+At the moment we are not writing any code in the `Client`
+
+(_app looks at the route and fetches some resources_)
+
+**Aside...**
+
+_Class naming conventions_
+
+  - should be singular
+  - should be a noun
+  - should come from the domain
+
+
+To **tighten the loop**, understand the journey of the code executing on server...
+
+1. Request comes from client
+2. `Controller` (for routing) catches the request
+3. (If there are any `models` these may be called here, sent back to `controller`, which would then call `view`)
+4. Returns relevant `view` (or return value from route method)
+5. `View` processes (transforms to html) 
+6. `View` returns something to controller
+7. `Controller` sends html back to client 
+
+
+ _makers.tech/apply_
+
+{ -domain- } { -route- }
+
+
+How **get visibility**?
+
+- Can only `p` in places where you have ruby code
+  - In `.erb` only in the `<% ruby %>` parts
+
+- Where would this output?
+  - Run ruby file
+  - Open link which has `ip address:port/route`
+  - In the server logs in terminal `p` lines will be output
+
+- Look at status codes (for error codes)
+- Sinatra shows more detail about error in the browser too
+
+- When running tests, can't see browser though (with Capybara)
+  - But will highlight file and line
+  - add `save_and_open_page` in file above line (this is capybara specific)
+  - (_Save a gem when suggested to to make this work_) 
+  - This saves where the program got to and opens page
+  - Use this only one at a time
+
+
+1. Server logs to see what requests were made
+2. Use `p` in ruby files
+3. Use `save_and_open_page` to check state of html that was sent back
+
+
+**Debrief after challenge...**
+
+1. Take clues from user stories...
+- "Home page" on story 2 -> there was no homepage route in controller file
+
+2. When 'looking at error' alwasys start by googling it
+
+3. Use `save_and_open page` -> to direct to error
+
+4. Follow path of execution (or _flow of control_) to find error
+
+
+**Alice's debugging process** for this practical...
+
+1. See error in context -> first error in stack trace shows the feature test file and line (first part that is our code)
+2. Used `save_and_open_page` immediately above failing line
+3. Shows that `visit("/")` isn't showing anything at this route
+4. Controller does routing, so check this out to see if there is a route for `"/"`
+5. User story guides choice where there is one (isn't at this step!)
+6. Find `view` file that has the field we are looking for
+7. Changed `/emoji` in controller to `/` as second user story refers to 'home page'
+8. Use `save_and_open_page` again to see what is now showing at this same point
+9. Error page in client now showing a different error (NameError)
+10. Follow this error through our `tighten the loop` process above
+11. See the file it refers to `index.erb` and line
+12. Comment out line and run again with `save_and_open_page`
+13. Tightened loop to a single line by doing this
+14. `p self` to show all variables that are available - understand what can be accessed to get the correct thing passed through
+15. `emoji` should be the variable in `index.erb`
+
+16. Next one highlights the route is wrong (`get` rather than a `post`) in controller for suggested route
+
+17. Then look at views files to locate missing form completed text
+18. Use `p flipped_struggle` in controller and view files to see output to see if text is output
+19. `p`s in the class here too, as controller calls `.new`
+19. Find out what is passed when calling new method in controller
+20. And has highlight that `struggle` was called `the_struggle` incorrectly
+
+
+#### Pairing challenge afternoon with Andy M
+
+`POST` requests should not render any html, they should redirect to a GET route to display
+- This results in a 303 in the server logs, [see...](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303)
+
+Further reading on `cookies` and `sessions` - where stored?
+
+
+## DAY 4
+

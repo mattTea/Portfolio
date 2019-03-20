@@ -1,11 +1,12 @@
-## Week 1
+# Week 1
 
 _A weekly journal to keep track of the work I am doing towards each of the goals._
 
 [Weekly outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/)
 
+------
 
-#### Goals
+## Goals
 
 1. Test-drive a simple program using objects and methods
     - [Test driving 1 project]()
@@ -21,8 +22,9 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
     - [Boris Bikes]()
     - [Encapsulation exercise]()
 
+------
 
-#### What I've learnt
+## What I've learnt
 
 _Things I've learnt or improved, and links to examples._
 
@@ -39,5 +41,6 @@ _Things I've learnt or improved, and links to examples._
 - **Behaviours** (or my mindset when approaching certain things)
   - [Refactoring - see day 5]()
 
+------
 
 [Raw notes](https://github.com/mattTea/Portfolio/blob/master/notes/week_1_raw_notes.md)
