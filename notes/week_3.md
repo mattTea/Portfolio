@@ -20,6 +20,7 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
     - [Web debugging practical]()
 
 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
+    - [Servers practical](https://github.com/mattTea/servers) - to interact with a notes app running on a server on a different machine 
     - [Example process models]()
 
 4. Explain the MVC pattern

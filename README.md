@@ -32,7 +32,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ------
 
-#### Projects
+## Projects
 
 [Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
@@ -50,7 +50,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ------
 
-#### Processes
+## Processes
 
 [TDD](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
 
@@ -64,7 +64,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ------
 
-#### Weekly goals
+## Weekly goals
 
 [Week 3](https://github.com/mattTea/Portfolio/blob/master/notes/week_3.md)
 

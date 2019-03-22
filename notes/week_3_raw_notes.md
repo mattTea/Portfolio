@@ -375,3 +375,59 @@ Further reading on `cookies` and `sessions` - where stored?
 
 ## DAY 4
 
+[Birthday web app challenge](https://github.com/makersacademy/course/blob/master/intro_to_the_web/post_challenges/birthday_app.md)
+
+- Learnt about `DateTime` objects
+- First example of test driving with user stories in commits - use as evidence of iterative test-driven development from the [commit history](https://github.com/mattTea/birthday_app/commits/master)
+
+
+#### Continuing on Battle app (alone, no pair today)
+
+**Important note**
+
+_This challenge introduces the use of a Global Variable ($variable). In Ruby, the sight of a global variable is a major code smell :poo:. We are using a global variable here in lieu of a better approach that we'll introduce in the final challenge. If you ever use a global variable in a hiring tech test, you will instantly fail. Don't do it._
+
+
+**Principles...**
+
+[Sandi Metz's rules for developers](https://thoughtbot.com/blog/sandi-metz-rules-for-developers)
+
+1. Classes can be no longer than one hundred lines of code.
+2. Methods can be no longer than five lines of code.
+3. Pass no more than four parameters into a method. Hash options are parameters.
+4. Controllers can instantiate only one object. Therefore, views can only know about one instance variable and views should only send messages to that object 
+
+
+## DAY 5
+
+#### Pairing with Cosmin 
+
+Behaviours built on [Tell Don't Ask](https://thoughtbot.com/blog/tell-dont-ask) principle
+- Refactor a call to attack method `game.attack(player2)` to `game.attack` ane keeping things inside the method (not making them public)
+- [Commit](https://github.com/mattTea/battle/commit/90292ca68a8815949397273197086c051ff246f9) that highlights this change
+
+
+**New concept**
+
+Singleton pattern ([in this commit](https://github.com/mattTea/battle/commit/6d4c0837a2b3ef7eb284f53acc26b8753cf05bfe))...
+
+```ruby
+class Attack
+
+  def initialize(player)
+    @player = player
+  end
+
+  def self.run(player)
+    Attack.new(player).run
+  end
+
+  def run
+    @player.receive_damage
+  end
+
+end
+```
+
+`Attack.run` creates an instance of itself that internally calls its `run` method
+- Follow up on why this is needed
