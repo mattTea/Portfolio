@@ -1,5 +1,7 @@
 ## My TDD Process
 
+<!-- update to include feature tests (e.g. capybara on web) -->
+
 1. Using your [domain model](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md), write simplest, first feature test for the first user story, using a REPL, to understand how you might interact with the program and the classes, methods, etc you know about so far. Watch the fail (_RED step_).
 2. (This feature test could be automated in your test suite, or added to a test helper so the set up activies required don't have to be repeated manually for each subsequent test. This would likely be part of a later refactor).
 3. Write a minimum first unit test, with the aim being to replicate the error that the feature test is producing (_RED step_).
@@ -21,5 +23,7 @@
 _The below examples are ordered with the newest at the top, to show the progression of this process._
 
 
-1. Starting the airport challenge [screen recording](https://github.com/mattTea/airport_challenge/blob/master/problem/TDD-screen-recording-airport.mp4)
+1. Rock Paper Scissors [commit history](https://github.com/mattTea/rps-challenge/commits/master)
+
+2. Starting the airport challenge [screen recording](https://github.com/mattTea/airport_challenge/blob/master/problem/TDD-screen-recording-airport.mp4)
 

@@ -33,6 +33,8 @@ Yes / No
 
 #### Finished projects
 
-[Airport]()
+[Battle] (https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
-[TDD Practice 1]()
+[Airport](https://github.com/mattTea/Portfolio/blob/master/projects/airport.md)
+
+[TDD Practice 1](https://github.com/mattTea/Portfolio/blob/master/projects/tdd_practice_1.md)

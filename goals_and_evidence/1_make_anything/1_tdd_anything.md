@@ -44,6 +44,13 @@ Feedback from process workshop partners.
 Feedback from a coach.
 
 
+_Things to consider:_
+_- Are tests isolated?_
+_- Are all tests meaningful?_
+_- Are the test descriptions clear?_
+_- Has a consistent TDD process been followed? How could you tell?)_
+
+
 ------
 
 ### Can you say this about yourself? 

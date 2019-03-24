@@ -1,5 +1,7 @@
 ## Debugging Process
 
+<!-- tighten the loop and get visibility -->
+
 1. Read the error message: error type and line in code affected
 
 2. Is the error expected behaviour - did an exception get raised or test fail as expected?
@@ -17,9 +19,8 @@
 6. Add puts or print statements at positions in the code to see if values are as we expect at different points, in order to narrow down the cause of the bug 
 
 
-
-UPDATE USING THE BELOW 
-
+<!-- update using the below  -->
+<!-- also update to include tightening the loop and getting visibility in web apps (week 3 notes) -->
 
 **Workshop: Debugging process (week 1)**
 

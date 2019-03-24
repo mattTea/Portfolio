@@ -34,6 +34,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Projects
 
+[Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
+
 [Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
 [Takeaway](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md)

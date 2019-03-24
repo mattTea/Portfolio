@@ -16,10 +16,10 @@ I can answer _yes_ to the following...
 - Do the tests pass?
 - Does rubocop pass?
 - If you break the code, do the tests fail?
-- Is the code straightforward and easy to read? Does someone who isn't me think so? [link to Sam's code review]()
+- Is the code straightforward and easy to read? Does someone who isn't me think so? [link to Sam's code review](https://github.com/makersacademy/takeaway-challenge/pull/1260)
 - Is the code well designed? (e.g. broken into multiple objects, each with a single responsibility)
 - Did you test drive the whole thing?
-- What does a coach think of it? [Katerina's comments]()
+- What does a coach think of it?
   - Katerina... "_Shows a really good grasp of dependency injection and doubling to isolate tests._"
   
   - I asked for additional feedback to help with simplifying my tests even further, as I had more than one assertion in a certain test. Katerina asked these coaching questions of me...
