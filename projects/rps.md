@@ -46,3 +46,7 @@ My approach to breaking down this problem, and ensuring it is easy to change is 
 **What I found difficult and want to work on more...**
 
 - Debugging web applications - this project helped me practice this more, but bugs still took me longer to find than I would ideally like
+
+- Using class variables (to solve problem where instance variables defined inside a route handler go out of scope once the response is sent back to the client)
+
+- Ensuring _all_ classes are extracted and each only has a single responsibility

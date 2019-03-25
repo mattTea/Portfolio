@@ -4,23 +4,25 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 [Weekly outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/)
 
+**I would like to improve** using class variables, and extracting out _all_ the classes
+
 ------
 
 ## Goals
 
-- 
+- Build a simple web app with a database
+- Follow an effective debugging process for database applications
+- Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
-1. ...
+
+1. Build a simple web app with a database
     - [Example]()
 
-2. ...
+2. Follow an effective debugging process for database applications
     - [Example]()
 
-3. ...
+3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
     - [[Example]()
-
-4. ...
-    - [Example]()
 
 ------
 
