@@ -47,6 +47,6 @@ My approach to breaking down this problem, and ensuring it is easy to change is 
 
 - Debugging web applications - this project helped me practice this more, but bugs still took me longer to find than I would ideally like
 
-- Using class variables (to solve problem where instance variables defined inside a route handler go out of scope once the response is sent back to the client)
+- Using [class variables](https://github.com/mattTea/Portfolio/blob/master/notes/week_4_raw_notes.md#learn-more) (to solve problem where instance variables defined inside a route handler go out of scope once the response is sent back to the client)
 
 - Ensuring _all_ classes are extracted and each only has a single responsibility
