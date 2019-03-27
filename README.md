@@ -34,6 +34,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Projects
 
+[SQL Zoo](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
+
 [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
 
 [Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
@@ -67,6 +69,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 ------
 
 ## Weekly goals
+
+[Week 4](https://github.com/mattTea/Portfolio/blob/master/notes/week_4.md)
 
 [Week 3](https://github.com/mattTea/Portfolio/blob/master/notes/week_3.md)
 

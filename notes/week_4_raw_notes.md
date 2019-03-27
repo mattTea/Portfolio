@@ -114,9 +114,10 @@ Some practical training tutorials on SQL at [SQLzoo](https://sqlzoo.net/)
 #### Feedback from Arthur
 
 - _Very methodical in approach, and great at pulling us back to focus on test-driving the solution._
-- _Really appreciated your curiosity - when we didn't fuly understand a concept you were very happy to break things and pull them apart to understand how they were working_
+- _Really appreciated your curiosity - when we didn't fully understand a concept you were very happy to break things and pull them apart to understand how they were working_
   - _Examples included capybara and rspec setup, and class methods_
 
+------
 
 ## DAY 2
 
@@ -155,7 +156,7 @@ DELETE  /restaurants/:id       restaurants#destroy
 
 
 
-### Databases 2 Workshop
+### Databases 2 Skills Workshop
 
 [Makers repo](https://github.com/makersacademy/skills-workshops/tree/master/week-4/databases_2)
 
@@ -368,6 +369,11 @@ Join table (for students and tags)
 
 #### Pairing with Kim (and Yoda)
 
+[SQL cheat sheet](http://www.cheat-sheets.org/sites/sql.su/)
+
+[Postgres command line cheat sheet](https://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet/)
+
+
 `psql postgres` command to start
 
 [Ruby class PG::Result](https://www.rubydoc.info/gems/pg/PG/Result)
@@ -375,11 +381,11 @@ Join table (for students and tags)
 _Loved your excitement, it really motivated me through the tougher parts of the challenge!_
 _Be sure to continue to balance that with stepping back, researching at the right time. Overall thought we worked really well together maintaining this balance brilliantly between us!_
 
-
+------
 
 ## DAY 3
 
-### More SQL
+### More SQL
 
 SQL files are being held in a `migrations` folder for teh afternoon bookmarks manager challenge... so, why?
 
@@ -389,3 +395,13 @@ _Whereas a build script creates a database, a migration script, or ‘change’ 
 
 _For every likely migration path between database versions, we need to store in version control the migration scripts that describe precisely those steps required to perform the change and, if necessary, moving data around and transforming it in the process_
 
+
+#### SQL Zoo
+
+SQL zoo [challenges](https://sqlzoo.net/)
+
+See my own [project](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
+
+- Strings in sql queries should be in single quotes
+
+- Can run calculations in queries (e.g. calculating gdp per capita from 2 columns...)

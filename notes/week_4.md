@@ -22,7 +22,7 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
     - [Example]()
 
 3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
-    - [[Example]()
+    - [Example]()
 
 ------
 
@@ -31,7 +31,7 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 _Things I've learnt or improved, and links to examples._
 
 - **Concrete things** (e.g. written a test or set up rspec)
-  - [Example]()
+  - [SQL queries](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
 
 - **Concepts** (e.g. TDD or user stories)
   - [[Example]()
