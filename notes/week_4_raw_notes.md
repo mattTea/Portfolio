@@ -104,3 +104,288 @@ Gem called `pg` - to communicate (create connection) with postgres db
 #### SQL
 
 Some practical training tutorials on SQL at [SQLzoo](https://sqlzoo.net/)
+
+
+### Afternoon challenge - pairing with Arthur
+
+[Bookmark Manager](https://github.com/makersacademy/course/blob/master/bookmark_manager/00_challenge_map.md)
+
+
+#### Feedback from Arthur
+
+- _Very methodical in approach, and great at pulling us back to focus on test-driving the solution._
+- _Really appreciated your curiosity - when we didn't fuly understand a concept you were very happy to break things and pull them apart to understand how they were working_
+  - _Examples included capybara and rspec setup, and class methods_
+
+
+## DAY 2
+
+### REST (representational state transfer)
+
+[Makers info pill](https://github.com/makersacademy/course/blob/master/pills/rest.md)
+
+#### REST Ideas
+
+1. Urls map to a _resource_ (a noun)
+
+2. We use a set of actions that HTTP allows us to specifiy when we create a request (verbs - GET, etc)
+
+#### Routing for a real application
+
+When writing a web app, we need a few more routes on top of the basic create, read, update and delete...
+
+- A route for listing all the records for a certain resource (e.g. all the restaurants).
+- A route to show a web form for entering the details of a new record.
+- A route to show a web form for entering the new details of an existing record.
+
+**Rails conventions...**
+
+```
+Verb    URI Pattern            Controller#action
+------  ---------------------  ------------------
+GET     /restaurants           restaurants#index
+POST    /restaurants           restaurants#create
+GET     /restaurants/new       restaurants#new
+GET     /restaurants/:id/edit  restaurants#edit
+GET     /restaurants/:id       restaurants#show
+PATCH   /restaurants/:id       restaurants#update
+PUT     /restaurants/:id       restaurants#update
+DELETE  /restaurants/:id       restaurants#destroy
+```
+
+
+
+### Databases 2 Workshop
+
+[Makers repo](https://github.com/makersacademy/skills-workshops/tree/master/week-4/databases_2)
+
+[Class responsibility collaborator cards](https://github.com/makersacademy/skills-workshops/blob/master/week-4/databases_2/crc_example.md)
+
+
+**Some summary notes**
+
+Foreign key = customer id being used in the order table (for example)
+
+Primary keys generated for you (usually?) and primary keys are persistent
+
+Can provide rules for data
+
+
+#### From domain models to database structures
+
+CRC model
+
+```
+                           Class name (object)
+--------------------------------------------------------------------
+Responsibilities (methods and state)  |  Collaborator (dependencies)
+
+
+```
+
+**Example**
+
+```
+As a customer
+So I can get a bicycle
+I want to withdraw a bicycle from a docking station
+
+As a customer
+So I can complete my trip
+I want to dock a bicycle back at a docking station
+
+As a customer
+So I can have the best cycling experience
+I want to only get good bikes from the docking station
+
+As an administrator
+So I can tell how many bikes are at each docking station
+I want to get a count of the number of bikes at the docking station
+
+
+                     Docking station
+-----------------------------------------------------------
+Responsibilities (meth/st.) |  Collaborator (dependencies)
+                            |
+       release_bike         |            bike
+        dock_bike           |
+       count_bikes          |
+
+
+
+                          Bike
+-----------------------------------------------------------
+Responsibilities (meth/st.) |  Collaborator (dependencies)
+                            |
+        is_working?         |
+
+
+```
+
+
+Above would suggest 2 tables...
+
+- DockingStation
+- Bike
+
+
+#### Table associations
+
+(Check out workshop documentation)
+
+Types of relationships
+- `has a...` -> docking station `has a` bike suggests we should put the docking station id in the bike table
+
+
+**Exercise**
+
+```
+USER STORIES
+
+As a coach
+So I can get to know all students
+I want to see a list of students' names
+
+As a coach
+So I don't get overwhelmed with a massive list of everyone
+I want to filter the list of students by cohort name
+
+As a coach
+So I can learn students' names
+I want each student's name to link to the URL of a picture of the student
+
+As a coach
+So I can mark certain students
+I want to tag a student with many named tags
+
+As a coach
+So I can see students with the same tag
+I want to filter students in the list by tag name
+
+As a student
+So I can reflect on my days
+I want to rate each day out of 10
+
+As a coach
+So I can get an overview of feedback
+I want to see an average of the day ratings for each student
+
+
+CRCs
+
+                         Student
+-----------------------------------------------------------
+Responsibilities (meth/st.) |  Collaborator (dependencies)
+                            |
+          knows name        |           cohort
+         knows cohort       |           (tag)
+          image_url         |
+          rate_day          |
+     average day rating     |
+       
+
+
+                         Cohort
+-----------------------------------------------------------
+Responsibilities (meth/st.) |  Collaborator (dependencies)
+                            |
+          knows name        |
+       filter_students      |
+        
+
+
+                           Tag
+-----------------------------------------------------------
+Responsibilities (meth/st.) |  Collaborator (dependencies)
+                            |
+       knows tag_name       |
+       filter_students      |
+
+
+
+
+TABLES
+
+Students
+--------
+
+A student has tags, so put the student id in the tags table
+(A tag also has students, so put tag id in the students table?)
+
+Join table? See below
+
+|  id  |     name      |  cohort_id  |    image_url   |   average_day_rating   |
+|------|---------------|-------------|----------------|------------------------|
+|  S1  | Matt Thompson |     001     |   www.me.com   |          4.00          |
+
+
+
+Cohorts
+-------
+
+(A cohort has a student, so put cohort id in the students table)
+
+|  id   |     name     |
+|-------|--------------|
+|  C1   |  "May 2016"  |
+
+
+
+Tags
+----
+
+(A tag has students, so put tag id in the students table)
+(A student also has tags, so put student id in the tags table?)
+
+|  id  |     name     |
+|---------------------|
+|  T1   |    happy     |
+
+
+Join table (for students and tags)
+----------------------------------
+
+|   join_id   |  tag_id  |   student_id    |
+|-------------|----------|-----------------|
+|     001     |    T1    |       S1        |
+
+
+```
+
+`has_and_belongs_to_many` association?
+
+[Associations link](https://guides.rubyonrails.org/association_basics.html#the-types-of-associations)
+
+[Many-to-many relationships](https://fmhelp.filemaker.com/help/17/fmp/en/index.html#page/FMP_Help/many-to-many-relationships.html)
+
+"Break the many-to-many relationship into two one-to-many relationships by using a third table, called a _join_ table. Each record in a join table includes a match field that contains the value of the primary keys of the two tables it joins. (In the join table, these match fields are foreign keys.) These foreign key fields are populated with data as records in the join table are created from either table it joins."
+
+
+**Ruby/rails guide to using association**
+
+[Association basics](https://guides.rubyonrails.org/association_basics.html#the-types-of-associations)
+
+
+#### Pairing with Kim (and Yoda)
+
+`psql postgres` command to start
+
+[Ruby class PG::Result](https://www.rubydoc.info/gems/pg/PG/Result)
+
+_Loved your excitement, it really motivated me through the tougher parts of the challenge!_
+_Be sure to continue to balance that with stepping back, researching at the right time. Overall thought we worked really well together maintaining this balance brilliantly between us!_
+
+
+
+## DAY 3
+
+### More SQL
+
+SQL files are being held in a `migrations` folder for teh afternoon bookmarks manager challenge... so, why?
+
+[What is a Migration Script?](https://www.red-gate.com/simple-talk/sql/database-administration/using-migration-scripts-in-database-deployments/)
+
+_Whereas a build script creates a database, a migration script, or ‘change’ script, alters a database. It is called a migration script because it changes all or part of a database from one version to another. It ‘migrates’ it between versions. This alteration can be as simple as adding or removing a column to a table, or a complex refactoring task such as splitting tables or changing column properties in a way that could affect the data it stores._
+
+_For every likely migration path between database versions, we need to store in version control the migration scripts that describe precisely those steps required to perform the change and, if necessary, moving data around and transforming it in the process_
+
