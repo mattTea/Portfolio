@@ -387,7 +387,7 @@ _Be sure to continue to balance that with stepping back, researching at the righ
 
 ### More SQL
 
-SQL files are being held in a `migrations` folder for teh afternoon bookmarks manager challenge... so, why?
+SQL files are being held in a `migrations` folder for the afternoon bookmarks manager challenge... so, why?
 
 [What is a Migration Script?](https://www.red-gate.com/simple-talk/sql/database-administration/using-migration-scripts-in-database-deployments/)
 

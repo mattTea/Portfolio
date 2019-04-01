@@ -106,3 +106,63 @@ Testing state is kind of ok as a starting point to test drive the class, but sho
 https://github.com/mattTea/rps-challenge/blob/master/docs/review.md
 
 https://github.com/makersacademy/course/blob/master/pills/code_reviews.md
+
+
+
+
+
+
+
+#### Alex code review for Chitter
+
+1. Readme
+
+Nice clear view of how you test drove your solution
+
+No instructions for downloading, running or setting up dbs though
+- Tried running tests (rspec) but can't get them to run, I assume because I have no db set up
+- Needed to install Ruby 2.5.1 to bundle gemfile
+- Ruby version in gemfile seems to be a reason your Travis CI build failed
+- Installed Ruby 2.5.1 and all tests still fail (probably as I have no install instructions)
+- For the same reason I can't access localhost:4567/messages
+
+(We worked through this and got the db running - thanks! Still can't get the tests to pass though)
+
+
+2. Commit messages as a story
+
+Your commit history...
+- first commit test up basic testing infra, no database yet
+- passed draft first test, shows in index
+- tested create method;
+- create method
+- removed create method for message
+- starting new user section, ready for testing
+- sign up basic, passed
+- passed draft username and name next to message on index
+- passed draft validation email/username, but not displaying specific e…  …
+- passed test where user no need login to see index
+- only can post message if logged in
+- readme 1st draft
+- after rubocop
+
+Shows clear progression, would be great to include reference to the user stories to show how the requirements were met at the relevant steps
+
+
+3. Tests
+
+Database set up using rake commands, but tests still not passing
+
+Only a couple of Rubocop warnings - good work!
+
+
+4. Quick wins
+
+- Naming... 
+  - RESTful structure used well in controller file
+  - Models look really nice and short, but I can't work out how the methods work (I'm guessing these may be built in methods in Active Record?) - I'm trying to see the methods that the tests refer to
+
+- Flow of app... 
+  - Error messages don't give a way back to let the user add correct data
+
+- Good TDD evidence through and really like the process you documented in your readme

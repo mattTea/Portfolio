@@ -4,6 +4,9 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 [Weekly outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/)
 
+[Bookmark Manager learning objectives](https://github.com/makersacademy/course/blob/master/bookmark_manager/learning_objectives.md)
+
+
 **I would like to improve** using class variables, and extracting out _all_ the classes
 
 ------
@@ -34,7 +37,7 @@ _Things I've learnt or improved, and links to examples._
   - [SQL queries](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
 
 - **Concepts** (e.g. TDD or user stories)
-  - [[Example]()
+  - [Example]()
 
 - **Processes** (e.g. debugging or problem breakdown -> TDD)
   - [Example]()
