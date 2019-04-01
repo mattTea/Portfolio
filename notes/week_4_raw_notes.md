@@ -405,3 +405,106 @@ See my own [project](https://github.com/mattTea/Portfolio/blob/master/projects/s
 - Strings in sql queries should be in single quotes
 
 - Can run calculations in queries (e.g. calculating gdp per capita from 2 columns...)
+
+
+#### Afternoon pairing with Greg
+
+
+## DAY 4
+
+At conference today, but working through last step of section 11 in the afternoon
+
+[Step 11 - wrapping database.. ](https://github.com/makersacademy/course/blob/master/bookmark_manager/11_wrapping_database_data_in_program_objects.md#wrapping-database-data-in-program-objects)
+
+[SitePoint - intro to ORM](https://www.sitepoint.com/orm-ruby-introduction/)
+
+[Learn.co - intro to ORM](https://learn.co/lessons/ruby-orm)
+- An ORM is really just a concept or a design pattern, a conventional way for us to organize our programs when we want those programs to connect to a database
+- When "mapping" our program to a database, we equate **classes with database tables** and **instances of those classes with table rows**
+
+You may also see this referred to as "wrapping" a database, because we are writing Ruby code that "wraps" or handles SQL.
+
+
+## DAY 5
+
+#### RESTful routes
+
+[Learn.io link](https://learn.co/lessons/sinatra-restful-routes-readme)
+
+_"It's important to note that much of the CRUD actions are different actions that occur on the same resource. Let's take the example of an article with the ID 4. If we wanted to view the article, we would make a GET request to /articles/4. But what about when I want to update that article? Am I hitting a different resource? Nope! Just doing a different action to that same resource. So instead of a GET against /articles/4 we do a PUT. That's why separating what you're talking to (the resource/noun) from the action you're doing (the HTTP verb) is important! That's key to REST."_
+
+[Game looking at REST resources and state](https://sjmog.github.io/rest/)
+
+
+[Example URLs for RESTful routes](https://github.com/makersacademy/course/blob/master/pills/rest.md#routing-for-a-real-application)
+
+```
+Rails conventions for URLs & related controller methods
+
+Verb    URI Pattern            Controller#action
+------  ---------------------  ------------------
+GET     /restaurants           restaurants#index
+POST    /restaurants           restaurants#create
+GET     /restaurants/new       restaurants#new
+GET     /restaurants/:id/edit  restaurants#edit
+GET     /restaurants/:id       restaurants#show
+PATCH   /restaurants/:id       restaurants#update
+PUT     /restaurants/:id       restaurants#update
+DELETE  /restaurants/:id       restaurants#destroy
+```
+
+#### Routes In Sinatra
+
+In Sinatra, a route is an HTTP method paired with a URL-matching pattern.
+
+Each route is associated with a block:
+```ruby
+get '/' do
+  .. show something ..
+end
+
+post '/' do
+  .. create something ..
+end
+
+put '/' do
+  .. replace something ..
+end
+
+patch '/' do
+  .. modify something ..
+end
+
+delete '/' do
+  .. annihilate something ..
+end
+
+options '/' do
+  .. appease something ..
+end
+
+link '/' do
+  .. affiliate something ..
+end
+
+unlink '/' do
+  .. separate something ..
+end
+```
+
+See also [`:method_override`](https://github.com/mattTea/bookmark_manager/blob/master/problem/problem_breakdown.md) for the **POST _method hack**
+
+
+#### More notes on afternoon challenge (pair not around)
+
+[Useful sinatra routes](https://learn.co/lessons/sinatra-restful-routes-readme)
+
+
+Capybara 4-phase test...
+
+1. Setting up test data
+2. Checking that the data is present
+3. Carrying out the DELETE action
+4. Checking that the data has been removed
+
+More about good steps for setting up and running tests here: [thoughtbot Four-Phase Test](https://robots.thoughtbot.com/four-phase-test)
