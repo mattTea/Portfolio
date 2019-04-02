@@ -145,3 +145,59 @@ it "should throw an exception if song is already playing" do
 end
 ```
 
+------
+
+## DAY 2
+
+### Encapsulation with constructors and prototypes workshop
+
+[Skills workshop details](https://github.com/makersacademy/skills-workshops/tree/master/week-5/encapsulation_with_constructor_and_prototype_pattern)
+
+[Link to my forked repo and solutions](https://github.com/mattTea/skills-workshops/tree/master/week-5/encapsulation_with_constructor_and_prototype_pattern)
+
+[Exemplar](https://github.com/mattTea/skills-workshops/blob/master/week-5/encapsulation_with_constructor_and_prototype_pattern/exemplar_dont_read_until_after_workshop/sheep/src/pen.js)
+
+
+**Encapsulation**
+
+- Hiding implementation details
+- Grouping behaviour with the data (state) it operates on
+
+(In Ruby we have the concept of `public` and `private` methods)
+
+Code smell - `Feature Envy` where a class constantly calls methods on another class
+
+_Look up prototypical inheritance_
+[Link to MDN Inheritance and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+- Every object we create in JS adds a "__proto__"
+
+
+```javascript
+// constructor to create object
+function Adult(age) {
+  this.age = age
+}
+
+// to add a function to Adult
+Adult.prototype.increaseAge = function() {
+  this.age += 10
+}
+
+adult = new Adult()
+
+adult.increaseAge() // without () would just return the function, not invoke it
+
+adult.age
+// => 40
+```
+
+JS doesn't do implicit returns like Ruby
+
+Above has used prototype to encapsulate the behaviour (increaseAge)
+
+
+### Count practical
+
+Naming conventions (underscore for private methods) don't do anything in the code - just for devs
+

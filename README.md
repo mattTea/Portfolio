@@ -34,6 +34,10 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Projects
 
+[Thermostat]()
+
+[Chitter](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)
+
 [SQL Zoo](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
 
 [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
@@ -56,6 +60,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Processes
 
+[Learning a language](https://github.com/mattTea/Portfolio/blob/master/processes/learning_a_language.md)
+
 [TDD](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
 
 [Debugging](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
@@ -69,6 +75,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 ------
 
 ## Weekly goals
+
+[Week 5](https://github.com/mattTea/Portfolio/blob/master/notes/week_5.md)
 
 [Week 4](https://github.com/mattTea/Portfolio/blob/master/notes/week_4.md)
 
