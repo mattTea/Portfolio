@@ -227,7 +227,7 @@ Your longer commit messages -> like that you shared and taught how and why you d
 Liked your git project collaborator approach to pairing, which forced regular commits and a real focus on test-driving.
 Your TDD process is thorough but at times slow -> it might now be time to drop the very simple tests, but it was good in that it taught me some syntax and got us into the swing very comfortably.
 
-Really like your questions on 'what would a user want to do' to keep the focus on how the features should work, and domain model thinking when test-driving - a real strength fo yours.
+Really like your questions on 'what would a user want to do' to keep the focus on how the features should work, and domain model thinking when test-driving - a real strength of yours.
 
 Also really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on eactly those, it really helped me think about what my learning goals were - thank you!
 
