@@ -221,10 +221,14 @@ https://devhints.io/jasmine
 
 ### Feedback
 
-Really appreciated your keeping really simple steps (the simplest possible) in test-driving
-longer commit messages -> like that you shared and taught hwo and why
+Really appreciated your keeping to really simple steps (the simplest possible) as we test-drove the application.
+Your longer commit messages -> like that you shared and taught how and why you do this (to build up the detail and commit history story).
 
-liked collaborator approach and forced regular commits and test-driving story
-tdd thorough but at times slow -> very simple tests might be able to be dropped, but it was good in that it taught some syntax and got us into the swing
+Liked your git project collaborator approach to pairing, which forced regular commits and a real focus on test-driving.
+Your TDD process is thorough but at times slow -> it might now be time to drop the very simple tests, but it was good in that it taught me some syntax and got us into the swing very comfortably.
 
-really like questions on 'what would a user want to do' and focus on domain model thinking when test-driving - a real strength
+Really like your questions on 'what would a user want to do' to keep the focus on how the features should work, and domain model thinking when test-driving - a real strength fo yours.
+
+Also really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on eactly those, it really helped me think about what my learning goals were - thank you!
+
+I really enjoyed the session.
