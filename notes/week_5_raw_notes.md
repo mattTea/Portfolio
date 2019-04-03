@@ -201,3 +201,30 @@ Above has used prototype to encapsulate the behaviour (increaseAge)
 
 Naming conventions (underscore for private methods) don't do anything in the code - just for devs
 
+------
+
+# DAY 3
+
+## Debugging in JavaScript
+
+[Skills workshop](https://github.com/mattTea/skills-workshops/blob/master/week-5/following_the_flow_and_getting_visibility_in_javascript/README.md)
+
+- I didn't attend the workshop, but use workshop notes above if needed when debugging js.
+
+[Jasmine 2 spy cheatsheet](https://daveceddia.com/jasmine-2-spy-cheat-sheet/)
+
+https://devhints.io/jasmine
+
+
+
+## Afternoon pairing with Sam Ixer
+
+### Feedback
+
+Really appreciated your keeping really simple steps (the simplest possible) in test-driving
+longer commit messages -> like that you shared and taught hwo and why
+
+liked collaborator approach and forced regular commits and test-driving story
+tdd thorough but at times slow -> very simple tests might be able to be dropped, but it was good in that it taught some syntax and got us into the swing
+
+really like questions on 'what would a user want to do' and focus on domain model thinking when test-driving - a real strength
