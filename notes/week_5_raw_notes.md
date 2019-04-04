@@ -174,22 +174,22 @@ _Look up prototypical inheritance_
 
 
 ```javascript
-// constructor to create object
+constructor to create object
 function Adult(age) {
   this.age = age
 }
 
-// to add a function to Adult
+to add a function to Adult
 Adult.prototype.increaseAge = function() {
   this.age += 10
 }
 
 adult = new Adult()
 
-adult.increaseAge() // without () would just return the function, not invoke it
+adult.increaseAge() without () would just return the function, not invoke it
 
 adult.age
-// => 40
+=> 40
 ```
 
 JS doesn't do implicit returns like Ruby
@@ -229,6 +229,80 @@ Your TDD process is thorough but at times slow -> it might now be time to drop t
 
 Really like your questions on 'what would a user want to do' to keep the focus on how the features should work, and domain model thinking when test-driving - a real strength of yours.
 
-Also really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on eactly those, it really helped me think about what my learning goals were - thank you!
+Also really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on exactly those, it really helped me think about what my learning goals were - thank you!
 
 I really enjoyed the session.
+
+
+# DAY 4
+
+## Workshop 1 - AJAX request and response cycle
+
+[AJAX request and response](https://github.com/matttea/skills-workshops/tree/master/week-5/)following_ajax_request_response_cycle
+
+
+`$.get()` is an async method, because it's making a server request and needs to wait for a response, so functions passed in as arguments will be callback functions
+
+"All server requests will be async unless you tell it otherwise"
+
+```javascript
+$.get("url", function(){}) <- this last function will always be a callback for these async methods
+```
+
+AJAX - async js and XML (http) requests
+
+(See also workshop files for a non-jQuery version of the html page - `comparison-with-non-jquery...`)
+
+
+## Workshop 2 - following the flow of control (call-backs)
+
+
+[Callbacks - following the flow of control](https://github.com/matttea/skills-workshops/tree/master/week-5/callbacks_following_the_flow_of_control)
+
+
+#### Learning objectives
+
+- Describe "the flow of control of a program" as "the order in which the parts of the code are executed".
+- Explain the process you use to follow the flow of control.
+- Follow the flow of control to help you understand how callbacks work.
+
+Link that shows you the [raw JS under jQuery](http://youmightnotneedjquery.com/)
+
+**Q3.** from the practicals, below (slightly wrong code)...
+
+```javascript
+console.log(1)
+var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", console.log(2), function(peopleResponse) {
+  return console.log(peopleResponse);
+});
+
+console.log(getReturnValue);
+```
+
+- The variable `getReturnValue` is the return value of the request object itself, **not what data is returned**
+
+- Storing data returned in a variable can only happen in the callback function (`peopleResponse`), it can't be the request itself (`getReturnValue`)
+
+- Using `getReturnValue` would be wrong in the above (the code is a bit wrong above)
+
+- Callback function will wait for the request to finish
+
+
+**Explore** what arguments you can use with `$.get`
+
+
+
+### Afternoon pairing with Amy
+
+_Take a second to think about the flow of what happens when a user interaction happens:_
+
+**user input -> event listener -> update model -> update view to reflect change in model**
+
+
+#### Feedback from Amy
+
+Related to `I can Program Fluently` goal
+- Showed good confidence navigating around the code and the project
+- Making considered choices about design, naming and structure
+
+- Good at attempting new, then quickly researching syntax and style if needed
