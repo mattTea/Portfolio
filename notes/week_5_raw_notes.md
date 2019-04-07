@@ -306,3 +306,22 @@ Related to `I can Program Fluently` goal
 - Making considered choices about design, naming and structure
 
 - Good at attempting new, then quickly researching syntax and style if needed
+
+
+# DAY 5
+
+## Morning - continued with airport.js
+
+When testing spy methods have been called in Jasmine - do not add the `()` after the method
+
+See assertion in below in example...
+
+```javascript
+airport = jasmine.createSpyObj('airport', ['landPlane', 'launchPlane']);
+
+it("calls airport.launchPlane()", function() {
+      plane.land(airport);
+      plane.takeOff(airport);
+      expect(airport.launchPlane).toHaveBeenCalledWith(plane);
+    });
+```
