@@ -1,16 +1,18 @@
-## Project: Rock Paper Scissors
+# Project: Rock Paper Scissors
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I write code that is easy to change
 
+------
 
-#### Action Plan
+## Action Plan
 
 Details [here](https://github.com/makersacademy/rps-challenge)
 
+------
 
-#### Evidence
+## Evidence
 
 - Go through the review rubric in docs/
 - Ask these questions of your code — the answers should all be yes:
@@ -23,8 +25,9 @@ Details [here](https://github.com/makersacademy/rps-challenge)
 - Did you test drive the whole thing?
 - What does a coach think of it?
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [24th March 2019](https://github.com/mattTea/rps-challenge)
 

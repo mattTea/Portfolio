@@ -1,16 +1,18 @@
-## Project: Thermostat
+# Project: Thermostat
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I write code that is easy to change
 
+------
 
-#### Action Plan
+## Action Plan
 
 Link to challenge [repo](https://github.com/makersacademy/course/tree/master/thermostat)
 
+------
 
-#### Evidence
+## Evidence
 
 Evidence plan and links to examples
 
@@ -19,8 +21,9 @@ Evidence plan and links to examples
 - I'm going to ask myself how I feel about the goals (emotional)
 - I'm going to attempt the weekend challenge (empirical) and complete it, and get a review from a coach (credible)
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [5th April 2019](https://github.com/mattTea/thermostatThurs)
 

@@ -73,3 +73,33 @@ To help you towards your primary goal, your secondary goal will be to produce a 
 [Challenge outlines](https://github.com/makersacademy/course/tree/master/further_javascript)
 
 [Challenge track](https://github.com/makersacademy/course/blob/master/further_javascript/00_challenge_track.md)
+
+
+
+## Afternon challenge notes
+
+### IIFEs - Immediately Invoked Function Expression (IIFE)
+
+### And the js module pattern
+
+https://github.com/makersacademy/course/blob/master/pills/javascript_module_pattern.md
+
+```javascript
+(function(exports) {
+  var EXCLAMATION_MARK_COUNT = 5
+
+  function exclaim(string) {
+    return string + "!".repeat(EXCLAMATION_MARK_COUNT);
+  };
+
+  exports.exclaim = exclaim;
+})(this);
+
+// prints "hi!!!!!"
+console.log(exclaim("hi"));
+
+// throws a ReferenceError
+console.log(EXCLAMATION_MARK_COUNT);
+```
+
+So we can access exclaim, but EXCLAMATION_MARK_COUNT is hidden. Cool. We've made available the function we want people to use, but hidden some implementation details that we don't want to bother them with.

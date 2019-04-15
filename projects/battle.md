@@ -1,19 +1,21 @@
-## Project: Battle
+# Project: Battle
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I have a methodical approach to solving problems
 - I write code that is easy to change
 
+------
 
-#### Action Plan
+## Action Plan
 
 Full details [here](https://github.com/makersacademy/course/tree/master/intro_to_the_web)
 
 Specific `Battle` app details start at [this step](https://github.com/makersacademy/course/blob/master/intro_to_the_web/getting_started_with_battle.md)
 
+------
 
-#### Evidence
+## Evidence
 
 My [commit history](https://github.com/mattTea/battle/commits/master) should relate a story through the test-driven development of the app, including refactor steps
 
@@ -25,8 +27,9 @@ Features are built up iteratively, then refactored to ensure principles such as 
 - Model classes are encapsulated and delegated appropriately
 - Model methods are short, simple and readable
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [22nd March 2019](https://github.com/mattTea/battle)
 

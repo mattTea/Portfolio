@@ -1,12 +1,13 @@
-## Project: Visit the SQL zoo
+# Project: Visit the SQL zoo
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I can learn anything by myself
 - (Possibly I can program fluently?)
 
+------
 
-#### Action Plan
+## Action Plan
 
 SQL Zoo is an interactive site that allows you to learn SQL commands by querying interesting databases, without having to set anything up locally
 Link to SQL zoo [challenges](https://sqlzoo.net/)
@@ -17,13 +18,15 @@ Link to SQL zoo [challenges](https://sqlzoo.net/)
 
 - Share my examples and outcomes
 
+------
 
-#### Evidence
+## Evidence
 
 Example challenges can be seen [here](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo_challenges.md)
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 <!-- To update -->
 

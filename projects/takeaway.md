@@ -1,16 +1,19 @@
-## Project: Takeaway
+# Project: Takeaway
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I have a methodical approach to solving problems
 - I can TDD anything
 
+------
 
-#### Action Plan
+## Action Plan
 
 Project details available [here](https://github.com/makersacademy/takeaway-challenge)
 
-#### Evidence
+------
+
+## Evidence
 
 I can answer _yes_ to the following...
 - Do the tests pass?
@@ -40,8 +43,9 @@ I can answer _yes_ to the following...
 
     All tests now only have a single expect statement, moving [from this](commit/link/to/file) to this (commit/link/to/file)
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [17th March 2019](https://github.com/mattTea/airport_challenge)
 

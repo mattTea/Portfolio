@@ -1,21 +1,24 @@
-## Project: name
+# Project: name
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - _Relevant Makers goals_
 
+------
 
-#### Action Plan
+## Action Plan
 
 Link to practical or challenge [repo]()
 
+------
 
-#### Evidence
+## Evidence
 
 Evidence plan and links to examples
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [date](link/to/repo)
 

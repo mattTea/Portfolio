@@ -1,38 +1,31 @@
-## Project: Oystercard
+# Project: Oystercard
 
-Work in pairs to build the Oystercard application.
-
-Evidence Plan
-Suggestions for gathering evidence:
-- Document your TDD process and ask for feedback from a coach.
-- Ask a more senior developer at Makers to review your code after extracting one or more classes.
-- Document your approach to extracting classes. What was easy about this exercise? What was hard?
-
-Updates
-
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I grow collaboratively
 - I write code that is easy to change
 - I can TDD anything
 
+------
 
-#### Action Plan
+## Action Plan
 
 Details [here](https://github.com/makersacademy/course/tree/master/oystercard)
 
 Work in pairs to build the Oystercard application.
 
+------
 
-#### Evidence
+## Evidence
 
 Plan for gathering evidence:
 - My documented and used TDD process, with feedback from a coach.
 - Code review from a more senior developer at Makers (particularly about extracting classes).
 - My documented approach to extracting classes.
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [15th March 2019](https://github.com/mattTea/oystercard)
 

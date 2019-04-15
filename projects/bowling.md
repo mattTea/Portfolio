@@ -1,16 +1,18 @@
-## Project: Bowling Scorecard
+# Project: Bowling Scorecard
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I write code that is easy to change
 
+------
 
-#### Action Plan
+## Action Plan
 
 Link to challenge [repo](https://github.com/makersacademy/bowling-challenge)
 
+------
 
-#### Evidence
+## Evidence
 
 _Evidence plan and links to examples_
 
@@ -25,8 +27,9 @@ _Evidence plan and links to examples_
 - Did you test drive the whole thing?
 - What does a coach think of it?
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [14th April 2019](https://github.com/mattTea/bowling-challenge)
 

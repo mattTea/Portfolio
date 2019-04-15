@@ -33,7 +33,7 @@ _Things I've learnt or improved, and links to examples._
   - [example]()
 
 - **Behaviours** (or my mindset when approaching certain things)
-  - This week and the group project really helped me focus on how to breakdown and split tasks, and improve my code organisation so that it isn't tightly coupled. WHat drove this was having multiple people working on the code base, and the constant risk of overlapping in certain files and creating merge conflicts. [Link to commit history](https://github.com/mattTea/makersBnB/commits/master)
+  - This week and the group project really helped me focus on how to breakdown and split tasks, and improve my code organisation so that it isn't tightly coupled. What drove this was having multiple people working on the code base, and the constant risk of overlapping in certain files and creating merge conflicts. [Link to commit history](https://github.com/mattTea/makersBnB/commits/master)
 
 ------
 

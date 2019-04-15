@@ -1,14 +1,15 @@
-## Project: Chitter
+# Project: Chitter
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I have a methodical approach to solving problems
 - I can model anything
 - I can program fluently
 - I can TDD anything
 
+------
 
-#### Action Plan
+## Action Plan
 
 Details [here](https://github.com/makersacademy/chitter-challenge)
 
@@ -17,8 +18,9 @@ Details [here](https://github.com/makersacademy/chitter-challenge)
 - Test-driven
 - Travis CI configuration for automated build on pull request
 
+------
 
-#### Evidence
+## Evidence
 
 - I'll plan and model the problem breakdown to ensure I understand the steps I need to take
 
@@ -44,7 +46,9 @@ Details [here](https://github.com/makersacademy/chitter-challenge)
 
 <!-- Update needed to everything below (currently from RPS) -->
 
-#### Updates and comments
+------
+
+## Updates and comments
 
 Project completed: [24th March 2019](https://github.com/mattTea/rps-challenge)
 

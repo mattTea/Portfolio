@@ -12,6 +12,17 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 - Work competently in Javascript
 - Reason about asynchronous behaviour in Javascript
 
+
+#### Concepts
+
+- Frontend, single page web apps
+- Events and event handlers
+- Manipulating the Document Object Model (DOM)
+- Ajax
+- Frontend templating
+- Frontend routing
+
+
 ------
 
 ## What I've learnt

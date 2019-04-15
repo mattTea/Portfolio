@@ -1,23 +1,26 @@
-## Project: Airport in JavaScript
+# Project: Airport in JavaScript
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I can TDD anything
 - I can learn anything by myself
 - I have a methodical approach to solving problems
 
+------
 
-#### Action Plan
+## Action Plan
 
 Link to challenge [repo](https://github.com/mattTea/airport-js)
 
+------
 
-#### Evidence
+## Evidence
 
 Evidence plan and links to examples
 
+------
 
-#### Updates and comments
+## Updates and comments
 
 Project completed: [5th April 2019](https://github.com/mattTea/airport-js)
 

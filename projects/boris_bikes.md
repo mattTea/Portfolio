@@ -1,17 +1,20 @@
-## Project: Boris Bikes
+# Project: Boris Bikes
 
-#### Towards achieving these goals
+## Towards achieving these goals
 
 - I grow collaboratively
 - I can model anything
 - I can TDD anything
 
+------
 
-#### Action Plan
+## Action Plan
 
 Details [here](https://github.com/makersacademy/course/tree/master/boris_bikes)
 
-#### Evidence
+------
+
+## Evidence
 
 - I can answer yes to the following...
   - I can diagram and explain my TDD process to my peers and/or a coach
@@ -32,7 +35,9 @@ Really good that you approached it as if if was the first time you’d conducted
 You didn’t make me feel in any way inferior for not having reached the same point as you!
 ```
 
-#### Updates and comments
+------
+
+## Updates and comments
 
 Project completed: [8th March 2019](https://github.com/mattTea/boris_bikes)
 
