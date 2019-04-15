@@ -16,7 +16,7 @@ Link to challenge [repo](https://github.com/makersacademy/bowling-challenge)
 
 _Evidence plan and links to examples_
 
-- Go through the review rubric in repo `docs/`
+- Go through the review rubric in `docs` [folder in repo](https://github.com/makersacademy/bowling-challenge/blob/master/docs/review.md)
 - Ask these questions of your code — the answers should all be yes:
   - Do the tests pass?
   - Does the linter pass?

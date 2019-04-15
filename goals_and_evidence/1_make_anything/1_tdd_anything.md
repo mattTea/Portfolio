@@ -10,8 +10,9 @@ To be able to test-drive anything means that I am comfortable and confident to t
 
 Following this `red`, `green` and then `refactor` cycle ensures clean, minimal and well-designed code, with maximum test coverage.
 
+------
 
-#### Process
+### Process
 
 _Overview_
 
@@ -49,7 +50,7 @@ Feedback from process workshop partners
 - [Link tbc]()
 
 Feedback from a coach
-- [Link](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#katerina-georgiou-makers-coach)
+- [Link](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
 
 
 ------

@@ -38,7 +38,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 [Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
 
-[Thermostat]()
+[Thermostat](https://github.com/mattTea/Portfolio/blob/master/projects/thermostat.md)
 
 [Chitter](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)
 

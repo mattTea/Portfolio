@@ -16,7 +16,7 @@ Laugh! People visiting the studio often comment on how much we laugh. Use it as 
 
 ## Evidence
 
-- Do you know how you're supposed to improve as a developer this week?
+- _Do you know how you're supposed to improve as a developer this week?_
   - Team working
     - Provide regular feedback to each other
     - Mob to solve problems
@@ -24,24 +24,26 @@ Laugh! People visiting the studio often comment on how much we laugh. Use it as 
     - Regular switching of pair partners and areas of work, to share knowledge and learn about all areas of the application
     - Daily retros to see if we achieved what we wanted to, and we can improve - also regular re-prioritisation if necessary
 
-- Is everyone having fun throughout the week? Ask them!
-- Do you have a clear idea of what everyone in your team is doing? What their struggles are at the moment, what they're trying to achieve?
-  - Celebrated the good bits (getting databases running through node, changing direction on technology) - lots fo high-fives when things worked!
+- _Is everyone having fun throughout the week? Ask them!_
+- _Do you have a clear idea of what everyone in your team is doing? What their struggles are at the moment, what they're trying to achieve?_
+  - Celebrated the good bits (getting databases running through node, changing direction on technology) - lots of high-fives when things worked!
   - Keeping an eye out for each other when we were getting blocked - regular check-ins and reviews of how we were doing
   - Decision-making as a team (switch from JS back to Ruby)
 
-- Have you received and given real code review? Real code review means feedback that results in changes to code (new commits).
+- _Have you received and given code reviews?_
   - Code reviews at pull request before we merged
-  - Pairing on everything meant that 2 people always had a good view on design decisions for every bit of code, and the shor reviews at each merge (also small, no branches lived for more than a few hours) meant all 4 of us could learn about every aspect of the code
+  - Decisions were often shared between tests and code was written
+  - Additional commits were added to PRs where feedback resulted in a change
+  - Pairing on everything meant that 2 people always had a good view on design decisions for every bit of code, and the short reviews at each merge (also small, no branches lived for more than a few hours) meant all 4 of us could learn about every aspect of the code
 
-- How are others finding building on the code you wrote? Can they understand it? Can they build upon it? Ask them!
+- _How are others finding building on the code you wrote? Can they understand it? Can they build upon it? Ask them!_
   - We all built easily on each others code, and where we changed things we shared that
   - It also taught us not to get too precious over our own code, but to be pragmatic
 
-- Are you happy with the code you're writing? Is it as good as code you'd produce alone? Better?
+- _Are you happy with the code you're writing? Is it as good as code you'd produce alone? Better?_
   - Decisions felt more thorough as each of us had to explain each of our decisions
 
-- Have you invited a coach to your retros or stand-ups to give you feedback on your process?
+- _Have you invited a coach to your retros or stand-ups to give you feedback on your process?_
   - We conducted a cohort wide show & tell/retro for every team - we all shared what we loved, what we learnt and what we longed for 
 
 ------
