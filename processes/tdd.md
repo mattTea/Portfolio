@@ -22,8 +22,9 @@
 
 _The below examples are ordered with the newest at the top, to show the progression of this process._
 
+1. Bowling Scorecard [commit history](https://github.com/mattTea/bowling-challenge/commits/master)
 
-1. Rock Paper Scissors [commit history](https://github.com/mattTea/rps-challenge/commits/master)
+2. Rock Paper Scissors [commit history](https://github.com/mattTea/rps-challenge/commits/master)
 
-2. Starting the airport challenge [screen recording](https://github.com/mattTea/airport_challenge/blob/master/problem/TDD-screen-recording-airport.mp4)
+3. Starting the airport challenge [screen recording](https://github.com/mattTea/airport_challenge/blob/master/problem/TDD-screen-recording-airport.mp4)
 

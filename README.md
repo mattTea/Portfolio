@@ -34,6 +34,10 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Projects
 
+[Makers BnB](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)
+
+[Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
+
 [Thermostat]()
 
 [Chitter](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)

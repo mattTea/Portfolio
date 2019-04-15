@@ -166,3 +166,56 @@ Only a couple of Rubocop warnings - good work!
   - Error messages don't give a way back to let the user add correct data
 
 - Good TDD evidence through and really like the process you documented in your readme
+
+
+
+
+
+#### Cosmin code review for Bowling
+
+1. How far did you get?
+
+Features
+- Gutter game
+- One frame
+- Multiple frames
+- Spares
+- Strikes
+- Final Frame
+
+Bonus Features
+- UI
+
+Sounds like you might have got way further than basic requirements, particularly around saving and storing game details
+
+
+1. Readme
+
+Really clear breakdown of problem, rules and user stories
+
+(Didn't see download/install instructions)
+
+
+
+2. Commit messages as a story
+
+Commits tell a nice story of progress and building feature complexity through test-driving, focusing on individual functionality at a time
+
+Nice description of where you got to and what you'd like to improve on the last commit message.
+
+
+3. Tests
+
+Tests all pass
+
+Wasn't sure what commands to try in console to try to run
+
+Tests cover some edge cases around invalid scores
+
+Tests clear and short, so they're very readable
+
+
+
+
+4. Quick wins
+

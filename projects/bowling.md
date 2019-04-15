@@ -28,17 +28,16 @@ _Evidence plan and links to examples_
 
 #### Updates and comments
 
-Version 1 project completed: [7th April 2019](https://github.com/mattTea/bowling-challenge)
-
-Process, relevant comments and new things...
-- ...
+Project completed: [14th April 2019](https://github.com/mattTea/bowling-challenge)
 
 
 **What I learnt more of...**
 
-- Improving specific [process](), and how
+- I felt I improved to a point where I was really able to rely on my [TDD process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md) in this project. At points where I wasn't sure how the full logic would be implemented I was able to use my [problem breakdown](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md) and modelling processes to support my test-driving to continue to make safe steps towards the solution.
 
 
 **What I found difficult and want to work on more...**
 
-- Things I started on but wish to practice and learn more
+- Repeating similar code blocks that look like prime candidates for DRYing out
+  - Similar html blocks repeated in `index.html` with UI interface code similarly repeated in `index.js`
+  - I will look to learn and improve my ability to modularise this type of code

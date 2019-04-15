@@ -27,10 +27,6 @@ _Detail_
 My [process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md) in detail, for test-driving anything.
 
 
-_Example..._
-
-
-
 ------
 
 ### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
@@ -42,7 +38,7 @@ Screen recordings of me using this process.
 - [Links tbc]()
 
 Commit histories that tell the test-driven process story of my applications
-- [Links]()
+- [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
 - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
 - n.b. improve on this for red, green, refactor cycle with better descriptions of each commit and how they align to a user story
 
@@ -113,6 +109,8 @@ _- Has a consistent TDD process been followed? How could you tell?)_
 ------
 
 ### Finished projects
+
+[Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
 
 [Takeaway](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md)
 
