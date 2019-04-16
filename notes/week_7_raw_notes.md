@@ -103,3 +103,150 @@ console.log(EXCLAMATION_MARK_COUNT);
 ```
 
 So we can access exclaim, but EXCLAMATION_MARK_COUNT is hidden. Cool. We've made available the function we want people to use, but hidden some implementation details that we don't want to bother them with.
+
+
+## DAY 2
+
+### JavaScript module pattern workshop
+
+Downside of `constructor/prototype` pattern in JS is visible and accessible throughout
+
+#### Learning objectives...
+
+- Describe the module pattern as a way to encapsulate and share code.
+- Explain how the module pattern makes some code available and hides other code.
+- Write code using the module pattern.
+
+
+Encapsulate a function in an object by using the prototype pattern
+
+
+**STEP 1**
+
+```javascript
+(function() {
+  function Human() {}
+
+  var name = "Matt"
+
+  Human.prototype.sayName() {
+    return "My name is " + name
+  }
+})()
+```
+
+`()` at end of module is to immediately invoke the function (IIFE)
+
+
+**STEP 2**
+
+```javascript
+(function(exports) {
+  function Human() {}
+
+  var name = "Matt"
+
+  Human.prototype.sayName() {
+    return "My name is " + name
+  }
+
+  exports.Human = Human;
+})(this)
+```
+
+`this` passed in as it is the `window` object (representing global scope)
+
+`exports` is named as such as a convention - can use any name in argument as usual
+
+`exports.Human = Human` means that the Human function is now available on the global scope (made it public by exporting what we want out of the module)
+- Still can't get `name` var outside of the scope, but the `sayName()` function is as we've exported it
+
+```javascript
+human = new Human()
+human.sayName()
+// => "My name is Matt"
+
+human.name
+// => undefined (as this is not available outside the module scope)
+```
+
+
+If we define behaviour using `prototype` it is bound to `Human` (which is already being exported), so is not private
+
+So we just define it without using `prototype` pattern
+
+
+**STEP 3**
+
+```javascript
+(function(exports) {
+  function Human() {}
+
+  var name = "Matt"
+
+  Human.prototype.sayName() {
+    return "My name is " + uppercase(name)
+  }
+
+  function uppercase(text) {
+    return text.toUpperCase()
+  }
+
+  exports.Human = Human;
+})(this)
+```
+
+`human.uppercase` is no available directly, as it's now private
+
+
+#### Workshop Pairing
+
+Q: we removed all function arguments passed to interrobang and it still worked (as they were already on exported to the global scope) -> why were they there in the first place?
+
+1. How does the function that wraps the question module keep `QUESTION_MARK_COUNT` private? Why is this useful?
+    - It's not created inside the part that is exported
+
+
+------
+
+FROM KATERINA on last workshop `this` question...
+
+To clear up the last question from today’s workshop, the main focus of that question is to make you aware that the value of this can change depending on the context it’s run from. Try running the following example in your console:
+
+```javascript
+(function(exports) {
+  var a = 1
+    console.log(this)
+    console.log(exports)
+
+  function test1() {
+    console.log(this)
+    return a
+  }
+
+  function test2() {
+    return _add5()
+  }
+
+  function _add5() {
+    return a + 5
+  }
+
+  exports.notes = {
+    test1: test1,
+    test2: test2
+  }
+})(this)
+```
+
+1. Look at what is printed in the console from the first two console logs.
+2. Call *notes.test1()* and see if what is printed in the console is surprising.
+3. Look at the docs to find out more about *this* - but don’t get too hung up on it just be aware that the value of *this* can change - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+
+------
+
+
+THIS IS HELPFUL...
+
+https://coryrylan.com/blog/javascript-module-pattern-basics
+
