@@ -63,7 +63,7 @@ Feedback from a team member, based on following questions
 - How did you find building on the code I wrote? 
 - Could you understand it?
 - Could you build upon it?
-- [Link to feedback from tbc for makersBnB]()
+- [Link to feedback from tbc for makersBnB](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/3_help_my_teams_succeed/2_code_easy_to_change.md#what-feedback-have-you-had)
 
 Feedback from code reviews
 - [Example tbc]()
@@ -85,7 +85,9 @@ Yes / No
 
 ### What feedback have you had?
 
+**Amy Jordan** (cohort peer and team member on makers BnB project)
 
+_We alternated pairs every day while completing this project. When coming to use or add to code that I had not written with Matt (or even during code review), I was quickly able to understand it and build upon it. This was made notably easier by clear commit messages, simple and clean methods/classes and following good OOP principles (eg, code is DRY and follows SRP)._
 
 ------
 
@@ -105,6 +107,6 @@ Yes / No
 
 [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
 
-[Battle] (https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
+[Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
 [Oystercard](https://github.com/mattTea/Portfolio/blob/master/projects/oystercard.md)

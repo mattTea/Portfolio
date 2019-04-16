@@ -41,19 +41,19 @@ I can answer _yes_ to the following...
       - One for me to focus on to keep improving
 
 
-    All tests now only have a single expect statement, moving [from this](commit/link/to/file) to this (commit/link/to/file)
+    All tests now only have a single expect statement, moving [from this tbc](commit/link/to/file) [to this tbc](commit/link/to/file)
 
 ------
 
 ## Updates and comments
 
-Project completed: [17th March 2019](https://github.com/mattTea/airport_challenge)
+Project completed: [17th March 2019](https://github.com/mattTea/takeaway-challenge)
 
 Code review comments against pull request [here](https://github.com/makersacademy/takeaway-challenge/pull/1260)
 
 Processes I believe have improved through this project
-- Feature testing ([before]() and [after]())
-- Writing descriptive readmes ([before]() and [after]())
+- Feature testing ([before tbc]() and [after tbc]())
+- Writing descriptive readmes ([before tbc]() and [after tbc]())
 - Domain modelling
 - Class extraction
 
@@ -65,4 +65,4 @@ Processes I believe have improved through this project
 
 **What I found difficult and want to work on more...**
 
-- As mentioned above, keeping things as simple as possible in my methods, so that I can keep things flexibile (not hard-coded), which helps set context and simple test assertiona
+- As mentioned above, keeping things as simple as possible in my methods, so that I can keep things flexibile (not hard-coded), which helps set context and simple test assertions

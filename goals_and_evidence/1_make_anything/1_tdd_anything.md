@@ -41,7 +41,7 @@ Screen recordings of me using this process.
 Commit histories that tell the test-driven process story of my applications
 - [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
 - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
-- n.b. improve on this for red, green, refactor cycle with better descriptions of each commit and how they align to a user story
+  - Please note that the commit history story told in the above example isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
 
 Feedback from pair partners
 - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
@@ -64,19 +64,16 @@ Yes / No
 
 ### Reflect: How does each of the following examples of your best work show evidence of achieving this goal?
 
-1. The process and approach I took during [project 'x']() shows an improvement over my process used in [project 'y'](), because...
+1. The process and approach I took during the [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master) project shows an improvement over my process used in earlier projects such as [Rock, Paper, Scissors](https://github.com/mattTea/rps-challenge/commits/master), because the development of the application can clearly be seen from very early simple designs and features, through increasingly (test-driven) more complex features. Described clearly in the commit message 'story'.
 
-2. In this [project]() I first test-drove an rspec feature file, which in turn test-drove my unit tests, which then drove my code. This was the first project I automated my feature tests as part of my TDD process. I believe this kept the focus even closer on the behaviour described in each user story when driving the class structure.
+2. The [airport-js](https://github.com/mattTea/airport-js/blob/master/spec/PlaneSpec.js) project highlights my test-driven approach for a number of other reasons too, namely...
+    - All tests are isolated
+    - All tests are meaningful
+    - All test descriptions are clear
 
-3. ...
+    - Please note this project wasn't completed to its full specification, but was the first project I wrote in JavaScript. This forced me to learn and apply good mocking and spying practices while learning a new language and frameworks. (The full specification of this project (in Ruby) can be found [here](https://github.com/mattTea/airport_challenge)).
 
-
-_Things to consider:_
-_- Are tests isolated?_
-_- Are all tests meaningful?_
-_- Are the test descriptions clear?_
-_- Has a consistent TDD process been followed? How could you tell?)_
-
+3. In the [Birthday Greeter](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md) project I first test-drove an rspec feature file, which in turn test-drove my unit tests, which then drove my code. This was the first project I automated my feature tests as part of my TDD process. I believe this kept the focus even closer on the behaviour described in each user story when driving the class structure.
 
 ------
 
@@ -99,7 +96,7 @@ _- Has a consistent TDD process been followed? How could you tell?)_
 
 #### Katerina Georgiou - Makers coach
 
-- _tbc_
+- _Shows a really good grasp of dependency injection and doubling to isolate tests._ (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
 
 
 ------

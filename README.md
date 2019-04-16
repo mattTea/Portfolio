@@ -46,6 +46,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
 
+[Birthday Greeter](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md)
+
 [Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
 [Takeaway](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md)
