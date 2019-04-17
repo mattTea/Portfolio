@@ -264,3 +264,38 @@ The practical this morning will show you an alternative approach to building a n
 
 3. Once you’ve watched the video, get together in pairs or small groups to discuss anything interesting or surprising about Ed’s process and approach
 
+
+
+### Process workshop with Arthur (middle letter)
+
+![Screen recording]()
+
+#### Feedback from Arthur
+
+- back yourself before trying an alternative route 
+- broke down problem more in problem file
+- could have done more with assumptions -> write any assumptions down -> planned a bit more explicitly what it was going to look like (Class, methods, etc)
+- pure tdd missed a but, but caught yourself and commented out to let tests drive
+- read all of stack trace for errors and typos
+- better once warmed up into it -> be confident in what you know
+- started puts-ing out result before testing - unnecessary - use the test to tell you this!
+
+
+#### Feedback for Arthur
+
+- reading problem and AC expectations
+- setting out immediately assumptions and how the program to be built will be structured, including inputs and returns - might have been easier to think about how a user might interact - like in a feature test
+- "_might make a class_" - describe why?
+- started writing pseudo code - another way of modelling that may have helped, as you appeared a bit stuck talking through data types and method
+
+- renaming of classes at the start to "follow conventions of ACs" - initially felt you were playing for time, but liked your reasoning (keeping with the domain language)
+
+- good use of rubber ducking with yourself... said you didn't know how to test drive returning a hash, and although I may have asked a couple of questions, you talked yourself round to writing a simple, single letter value test first
+- quick to debug at 15 mins in -> setting up Class to take an argument was wrong, which you followed the trace to find that you needed an initialize method
+
+- was ok to take a minute to think about how to set up score (looked uncomfortable, but it was < 1min)
+- also looked uncomfortable passing a test with a hard-coded value, but it was good - it led you to the next test and next bit of functionality
+
+- when you wrote the 5/1 if/else statement didn't follow failed test errors
+
+- didn't commit
