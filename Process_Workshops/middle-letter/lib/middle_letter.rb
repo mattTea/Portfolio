@@ -1,11 +1,16 @@
-def string_length(string)
+def middle_letter(string)
   if string.length % 2 == 0
-    return "even"
+    second_char = string.length / 2
+    first_char = string.length / 2 - 1
+    return string[first_char] + string[second_char]
   else
-    return "odd"
+    middle_char = string.length / 2
+    return string[middle_char]
   end
 end
 
-def middle_letter(string)
-  "l"
-end
+p middle_letter("test") # => "es"
+p middle_letter("testing") # => "t"
+p middle_letter("middle") # => "dd"
+p middle_letter("A") # => "A"
+p middle_letter("of") # => "of"

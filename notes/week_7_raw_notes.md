@@ -250,3 +250,17 @@ THIS IS HELPFUL...
 
 https://coryrylan.com/blog/javascript-module-pattern-basics
 
+
+
+## DAY 3
+
+### Practical - Ed writing a notes app
+
+The practical this morning will show you an alternative approach to building a notes single page web app.
+
+1. Watch the following video: https://www.youtube.com/watch?v=7wLEwj6mOrE
+
+2. If this isn’t already part of your process then do note that before you start to code you should have already done some sort of planning. This can be as basic as a small diagram which allows you to see the flow of the program.
+
+3. Once you’ve watched the video, get together in pairs or small groups to discuss anything interesting or surprising about Ed’s process and approach
+

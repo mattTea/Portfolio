@@ -4,15 +4,18 @@
 
 ### Reflect: What does it mean to write code that is easy to change?
 
-- Easily readable by someone coming to the code, without having had the benefit of test-driving, or being involved in the early design decisions
-- Code (and associated tests) that is loosely coupled, so that changes in one part of the codebase don't affect others, and don't break unrelated tests
+The option of rewriting a program is not possible in any enterprise environment, so ensuring the code is readable, and easy to change by any developer on the team is essential.
 
-- The option of rewriting a program may be possible in a small learning environment, but is not for enterprise programs. It should be possible for any developer on a team to make a change, so ensuring the code is readable, and easy to change is essential.
+Code should be easily readable by someone coming to the program, without having had the benefit of test-driving, or being involved in the early design decisions. It should be loosely coupled so that changes in one part of the program don't affect others. Tests should isolate the class or object and methods under test so that any changes or errors in other parts of the code don't break tests for unrelated objects.
 
 For code to be easy to change, it should...
-- have accurate, descriptive naming throughout 
-- have short, single responsibility functions or methods
--  be loosely coupled so that "the creation of an instance is separate from its usage. This way, it is possible to replace the dependencies without changing the class that will use them."
+- Have accurate and descriptive naming throughout 
+- Have short, single responsibility functions or methods
+- Meet conventional linting conventions
+
+- Be loosely coupled so it is possible to 
+
+so that "the creation of an instance is separate from its usage. This way, it is possible to replace the dependencies without changing the class that will use them."
 - "Encapsulation: as mentioned before, the less each object knows about the others, the better since they will depend less on them. As explained in the refactoring goal, whenever possible, I delegate internal behaviour to private functions, use setter methods instead of giving multiple objects access to another object’s properties, etc."
 
 
