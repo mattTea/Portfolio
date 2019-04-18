@@ -41,7 +41,7 @@ Screen recordings of me using this process.
 Commit histories that tell the test-driven process story of my applications
 - [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
 - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
-  - Please note that the commit history story told in the above example isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
+  - Please note that the commit history story told in the second example above isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
 
 Feedback from pair partners
 - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
@@ -73,7 +73,9 @@ Yes / No
 
     - Please note this project wasn't completed to its full specification, but was the first project I wrote in JavaScript. This forced me to learn and apply good mocking and spying practices while learning a new language and frameworks. (The full specification of this project (in Ruby) can be found [here](https://github.com/mattTea/airport_challenge)).
 
-3. In the [Birthday Greeter](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md) project I first test-drove an rspec feature file, which in turn test-drove my unit tests, which then drove my code. This was the first project I automated my feature tests as part of my TDD process. I believe this kept the focus even closer on the behaviour described in each user story when driving the class structure.
+3. Doubling objects within the [Notes app](https://github.com/mattTea/notes-app-Tuesday) project ensured my tests were fully isolated. Good examples can be seen in [this file](https://github.com/mattTea/notes-app-Tuesday/blob/master/public/src/notes-list-view-tests.js) and [this file](https://github.com/mattTea/notes-app-Tuesday/blob/master/public/src/note-controller-tests.js)
+
+4. In the [Birthday Greeter](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md) project I first test-drove an rspec feature file, which in turn test-drove my unit tests, which then drove my code. This was the first project I automated my feature tests as part of my TDD process. I believe this kept the focus even closer on the behaviour described in each user story when driving the class structure.
 
 ------
 
@@ -81,9 +83,9 @@ Yes / No
 
 #### Riya Dattani - cohort pair partner
 
-  - _Found the breaking down of each user story and problem into an object model table and example feature test (in irb) of how the program would work really useful in planning how we would step through the problem._
+- Found the breaking down of each user story and problem into an object model table and example feature test (in irb) of how the program would work really useful in planning how we would step through the problem.
 
-  - _Great feature test check ([code review comment](https://github.com/makersacademy/airport_challenge/pull/1328#discussion_r264163812) regarding writing irb feature test plans)_
+- Great feature test check ([code review comment](https://github.com/makersacademy/airport_challenge/pull/1328#discussion_r264163812) regarding writing irb feature test plans)
 
 
 #### Samantha Ixer - cohort pair partner
@@ -97,6 +99,12 @@ Yes / No
 #### Katerina Georgiou - Makers coach
 
 - _Shows a really good grasp of dependency injection and doubling to isolate tests._ (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
+
+
+#### Wardah Tarar - cohort pair partner
+
+- You really helped me understand dependency injection.
+- You successfully created doubles in our tests, ensuring they were fully isolated (within [notes app](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md))
 
 
 ------

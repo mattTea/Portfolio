@@ -268,7 +268,7 @@ The practical this morning will show you an alternative approach to building a n
 
 ### Process workshop with Arthur (middle letter)
 
-![Screen recording]()
+[Screen recording](https://drive.google.com/open?id=1Zmy0qfhrMGzidM5nsn19FW_Y-oAjfxlT)
 
 #### Feedback from Arthur
 
@@ -279,6 +279,25 @@ The practical this morning will show you an alternative approach to building a n
 - read all of stack trace for errors and typos
 - better once warmed up into it -> be confident in what you know
 - started puts-ing out result before testing - unnecessary - use the test to tell you this!
+
+```
+Raw notes
+
+- copied across acceptance criteria and broke down problem in markdown file
+- Asserted assumptions of criteria
+- Caught yourself not TDD'ing and went back to do more pure testing approach
+- Once you warmed up, and got into your flow and comfort of TDDing, you seemed really confident. Naturally started talking through what you were doing
+
+Improvements
+- Fill out expectations further, suggesting edge cases
+- Consider  components of the program fully - which bits will work together too
+- Plan out more, maybe drawing it out, or talking through the whole program/ function before jumping into tests
+- Be more confident - you know what you're doing, back yourself (said "I don't remember any Ruby" whilst simultaneously writing a perfect rspec test. Feel free to Google anything to remind yourself of syntax before starting
+- Read stack trace more carefully to isolate line of code the error is occurring on
+- If writing methods you plan to delegate to, call those functions. Or consider what you've already written when writing your next function and what you can reuse to keep it DRY
+- Use the cards more rigorously to reinforce your process
+- Don't use 'p' for testing outputs before actually failing your test. Your test will tell you if the output is not what you think - you wrote good tests, trust that you can rely on them, and 'p' out later if you need to debug more
+```
 
 
 #### Feedback for Arthur
@@ -299,3 +318,14 @@ The practical this morning will show you an alternative approach to building a n
 - when you wrote the 5/1 if/else statement didn't follow failed test errors
 
 - didn't commit
+
+
+### Pairing with Wardah Tarar
+
+Feedback...
+
+- Didn’t feel hesitant going a few steps back on your code so that I could catch up.
+- Helped me understand the injection concept.
+- Liked how you methodologically approached debugging and didn’t give up on it even after a really long time.
+- We made good progress. Got to successfully create doubles in our tests, isolating the functions.
+- All in all, a really positive and fun pairing partner.

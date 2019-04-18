@@ -34,6 +34,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 ## Projects
 
+[Notes App](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md)
+
 [Makers BnB](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)
 
 [Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
@@ -81,6 +83,10 @@ It includes examples of my work, challenges completed, and the processes I have 
 ------
 
 ## Weekly goals
+
+[Week 7](https://github.com/mattTea/Portfolio/blob/master/notes/week_7.md)
+
+[Week 6](https://github.com/mattTea/Portfolio/blob/master/notes/week_6.md)
 
 [Week 5](https://github.com/mattTea/Portfolio/blob/master/notes/week_5.md)
 
