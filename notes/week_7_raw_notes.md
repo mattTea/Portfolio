@@ -41,6 +41,9 @@ What things need to happen for things to be considered a `Model` or a `View` or 
 ![image](https://github.com/mattTea/Portfolio/blob/master/images/IMG_6095.JPG)
 
 
+[Makers SPA pill](https://github.com/makersacademy/course/blob/master/pills/frontend_single_page_app.md)
+
+
 In Sinatra apps we used a `config.ru` file to run -> there is an equivalent app runner to run JS SPAs
 
 
@@ -329,3 +332,31 @@ Feedback...
 - Liked how you methodologically approached debugging and didn’t give up on it even after a really long time.
 - We made good progress. Got to successfully create doubles in our tests, isolating the functions.
 - All in all, a really positive and fun pairing partner.
+
+
+
+## Feedback from Sophie Gill Thursday 18th April 2019
+
+#### Sophie Gill [3:33 PM]
+Hi Matt, I don't suppose you have a screen recording of your TDD process? It's quite time-consuming for me to look through commits, so if not I'll pick a few out at random and give you some comments.
+Regarding isolating tests - how could you find out whether your tests are well isolated without my help?
+
+#### Matt Thompson [3:50 PM]
+Thanks Sophie, sadly I don't have a screen recording of this one (only very simple challenges from early on), but a comment on one or two of the commits would be great (or the overall general story that the commit history gives) <- most of my messages will need expanding to see the progression
+
+In terms of isolating tests, I usually comment out a class or object I've doubled to check that the test I'm trying to isolate still passes
+
+Thank you! (edited) 
+
+#### Sophie Gill [5:29 PM]
+Sounds like that's a good technique for seeing if a test is isolated - the other thing to check is that test coverage is maintained in the dependency class, even if the tests for the class that uses it are removed. As, it's important to check that as well as the tests being isolated, the code in each class has been tested thoroughly in it's unit tests.
+
+#### Sophie Gill [5:57 PM]
+Some comments from me on the TDD approach you took:
+- Make sure the feature tests reflect how the user will interact with the app. Would you expect the user to create new frames, set the total score for that frame and then push the frame into the scorecard, as described in the gutterball game feature test? https://github.com/makersacademy/bowling-challenge/pull/951/commits/f6f2b9a45012b13c04704ed4cf2afebb7b1db7dc
+- I noticed a pattern of reaching into the object to change it's state when under test, rather than setup the test scenario that you wanted to check.
+- Quite a few tests committed at times. I would expect to see a single feature test (plus necessary unit tests) in each commit. https://github.com/makersacademy/bowling-challenge/pull/951/commits/0d57efa2da947e8c86c803df43431b04a36e23e6
+However I did see commits where only a single feature test had been committed. Make sure your commit messages are descriptive so they are useful.
+- Lots of tests which is great, but I can't be sure based on the commits that those are actually driving the code (i.e. you are only writing the code to fix the failure message you can see).
+
+I know you didn't seek feedback on this but I had a quick look at the code and noticed that there is a lot of repetition - could you refactor this to improve the readability and reduce the repetition?
