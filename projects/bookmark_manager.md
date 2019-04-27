@@ -52,7 +52,7 @@ The above project enabled me to meet the achieves the following goals...
 - Use the psql command to interact with PostgreSQL
 
 
-#### Tooling
+#### Tooling
 
 - Set up a test environment
 - Use database GUIs to interact with databases (TablePlus)

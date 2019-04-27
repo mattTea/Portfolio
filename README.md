@@ -4,6 +4,8 @@ This is my learning journey at Makers Academy.
 
 It includes examples of my work, challenges completed, and the processes I have learnt and developed while working towards the following goals.
 
+Click through to any of the following links for more detail.
+
 
 ## My Goals
 
@@ -49,6 +51,8 @@ It includes examples of my work, challenges completed, and the processes I have 
 [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
 
 [Birthday Greeter](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md)
+
+[Bookmark Manager](https://github.com/mattTea/Portfolio/blob/master/projects/bookmark_manager.md)
 
 [Battle](https://github.com/mattTea/Portfolio/blob/master/projects/battle.md)
 
