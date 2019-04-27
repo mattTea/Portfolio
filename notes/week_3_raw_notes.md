@@ -251,7 +251,7 @@ Completed `Servers` practical with Amy -> add this to Portfolio
 [Servers challenge repo](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
 
 
-#### Debugging web apps
+### Debugging web apps
 
 [Github repo for challenge](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2)
 

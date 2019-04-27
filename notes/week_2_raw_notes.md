@@ -49,7 +49,7 @@ Group code review - start by using [rubric](https://github.com/mattTea/airport_c
 - Modelling problems (workshop on Wednesday)
 
 - A method and a class should have a single responsibility
-  - Only use `and` when describing it's responsibilty if it is delegating this second responsibility elsewhere
+  - Only use `and` when describing it's responsibility if it is delegating this second responsibility elsewhere
   - But also shouldn't delegate everything - avoid this `god` class!
     - When to `delegate`, when to `encapsulate` -> looked at later this week
 
@@ -59,14 +59,14 @@ Group code review - start by using [rubric](https://github.com/mattTea/airport_c
   - Sophie doesn't suggest use of modules at this stage (but mentioned in challenge suggested?)
 
 
-**Isolate tests using doubles**
+#### Isolate tests using doubles
 
 - Fully double any object that isn't the one under test, so we can be sure that the test is testing the beehaviour of one and only one object
 
 
-**Dependency injection**
+#### Dependency injection
 
-```
+```ruby
 class Airport
   def initialize(capacity, weather)
     @capacity = capacity || 20          <- if no arg will default to 20
@@ -79,7 +79,7 @@ Airport.new(nil, weather_double)
 
 Other option could be to use `named arguments` which will not worry about order, but will require the named argument
 
-```
+```ruby
 class Airport
   def initialize(:capacity, :weather)
     @capacity = capacity || 20          <- if no arg will default to 20
@@ -145,11 +145,14 @@ Working through steps 6-12 of oystercard
 
 Using doubles has been the most difficult concept today, both morning and afternoon
 - Starting to understand the use of a double in a test
-```
+
+```ruby
 let(:in_station){ double :in_station }
 ```
+
 same as...
-```
+
+```ruby
 in_station = double :in_station
 ```
   - The above lets us use an `in_station` variable throughout the test suite, without having to set the necessary behaviours

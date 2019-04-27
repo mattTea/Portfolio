@@ -19,13 +19,12 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 
 1. Build a simple web app with a database
-    - [Example]()
+    - [Example](https://github.com/mattTea/bookmark_manager)
 
 2. Follow an effective debugging process for database applications
-    - [Example]()
+    - [Example](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
 
 3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
-    - [Example]()
 
 ------
 
@@ -37,13 +36,13 @@ _Things I've learnt or improved, and links to examples._
   - [SQL queries](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)
 
 - **Concepts** (e.g. TDD or user stories)
-  - [Example]()
+  - [Database migrations](https://github.com/mattTea/bookmark_manager)
 
 - **Processes** (e.g. debugging or problem breakdown -> TDD)
-  - [Example]()
+  - [Debugging a web app with a database](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
 
 - **Behaviours** (or my mindset when approaching certain things)
-  - [Example]()
+  - [Diagramming to break down and understand a problem](https://github.com/mattTea/bookmark_manager)
 
 ------
 

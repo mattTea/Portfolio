@@ -1,6 +1,6 @@
 ## Debugging Process
 
-<!-- Maybe have a few different processes - ruby debugging, web app debugging, web app with db debugging -->
+### Add a few different processes - ruby debugging, web app debugging, web app with db debugging
 
 <!-- tighten the loop and get visibility -->
 

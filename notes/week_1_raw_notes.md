@@ -3,7 +3,8 @@ https://github.com/makersacademy/course/blob/master/weekoutlines.md/
 Schedule: https://airtable.com/shrRMPTxzEWim8r7r
 
 
-## WEEK 1
+# WEEK 1
+
 ## DAY 1
 
 Each day fork or clone repo of person who is not as far in challenges. And collaborate on same repo 
@@ -228,7 +229,7 @@ _Really good that you approached it as if if was the first time you’d conducte
 _You didn’t make me feel in any way inferior for not having reached the same point as you!_
 
 
-## DAY 5
+## DAY 5
 
 **Continuing with birthdays challenge**
 
@@ -271,7 +272,7 @@ Linting done for my own files (not the `_solution` file)
 
 “_Code has to be evolved as it's being test driven in order to ensure it follows SOLID principles, removes code smells and makes effective use of design patterns_"
 
-#### SOLID
+### SOLID
 
 SOLID | Definition
 -------------------- | ----------------------------------------
@@ -282,7 +283,7 @@ SOLID | Definition
 **Dependency inversion principle** | One should "depend upon abstractions, (not) concretions."
 
 
-#### OOP
+### OOP
 
 **Encapsulation**
 
