@@ -10,4 +10,8 @@ describe("MiddleLetter", function() {
   it("returns middle letter of 3 letter string", function() {
     expect(middleLetter("abc")).toEqual("b")
   })
+
+  it("returns middle letter of a 5 letter string", function() {
+    expect(middleLetter("abcde")).toEqual("c")
+  })
 })
