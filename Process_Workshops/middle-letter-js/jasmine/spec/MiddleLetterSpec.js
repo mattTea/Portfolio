@@ -14,4 +14,13 @@ describe("MiddleLetter", function() {
   it("returns middle letter of a 5 letter string", function() {
     expect(middleLetter("abcde")).toEqual("c")
   })
+
+  it("returns middle letter of 17 letter string", function() {
+    // to check my last commit message
+    expect(middleLetter("abcdefghijklmnopq")).toEqual("i")
+  })
+
+  it("returns middle 2 letters of a 6 letter string", function() {
+    expect(middleLetter("abcdef")).toEqual("cd")
+  })
 })
