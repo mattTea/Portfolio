@@ -360,3 +360,19 @@ However I did see commits where only a single feature test had been committed. M
 - Lots of tests which is great, but I can't be sure based on the commits that those are actually driving the code (i.e. you are only writing the code to fix the failure message you can see).
 
 I know you didn't seek feedback on this but I had a quick look at the code and noticed that there is a lot of repetition - could you refactor this to improve the readability and reduce the repetition?
+
+#### Matt Thompson [5:19 PM]
+Hi Sophie, this is super helpful feedback, exactly what I needed - thank you!
+
+Really good prompts for me to think about and take on board, and I really appreciate you looking at the code too (I was planning a code review request after I had done some refactoring on those long, ugly and repetitive functions - it's on the to do list!)
+
+A quick question, when you suggested a screen recording for helping you review, what sort of length is useful (as I guess recording my entire build of a weekend project might take up a lot of space!) and what would be the best point in my development of a program to record - the start, or somewhere in the middle?
+
+Thanks very much again Sophie, really appreciate your time
+
+Matt
+
+#### Sophie Gill [2:58 PM]
+Hi Matt, good to know it was helpful.
+RE screen recording, if you're not sure where to start I would recommend doing one of the kata in the process review workshop - spend no longer than 30 minutes on the problem and record your screen.
+You can watch it back yourself, or send it to anyone else (a peer, a coach, your mentor) to ask for feedback, but be as specific as possible about what you think went well, what you would like feedback on, and why you are seeking the feedback.
