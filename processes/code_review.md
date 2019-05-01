@@ -1,4 +1,47 @@
+#### Jeremy code review for Instagram
 
+1. Readme
+
+Nice clean reasons for and state of the build
+
+Feel like you really understood your user base!
+
+Good section on test coverage (albeit with blanked out values). I learnt last week that you can add live 'badges' to your readme to show current tests stats - might help you here
+
+Installation and running instructions clear (but missing the url to see the program running)
+- (I did get this error when trying to run bundle install "_You must use Bundler 2 or greater with this lockfile._" Basically we're on different bundle versions, but not your issue!
+
+
+2. Commit history as a story
+
+Nice build up of complexity and the story through your commit history
+
+It's been suggested to me that it's good for this to focus on customer goals/value too, so this could be improved by including which user stories have been delivered at each commit, and maybe named similarly to the new feature test that is passing for that commit (good story though!)
+
+
+3. Tests and linting
+
+Haven't yet run tests (bundler version issue above), but they seem a bit light - no feature tests?
+
+
+4. Quick wins
+
+(Left a few `p`s in the UsersController)
+
+
+5. Code
+
+Nice use fo partials for the new and edit forms
+
+All seems clean and nothing overly complex added after Rails has done its thing
+
+
+6. Good practice and comments from rubric
+
+Useful to look through the thoughts [here](https://github.com/makersacademy/instagram-challenge/blob/master/docs/review.md)
+
+
+------
 
 #### Arthur code review for RPS
 

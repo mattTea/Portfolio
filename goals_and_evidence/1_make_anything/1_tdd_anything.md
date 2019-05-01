@@ -38,6 +38,8 @@ My process to test-drive any problem through to a code solution.
 Screen recordings of me using this process.
 - [Links tbc]()
 
+<!-- Add screen recording link of process workshop above -->
+
 Commit histories that tell the test-driven process story of my applications
 - [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
 - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
@@ -49,6 +51,8 @@ Feedback from pair partners
 Feedback from process workshop partners
 - [Link tbc]()
 
+<!-- Feedback from Arthur above -->
+
 Feedback from a coach
 - [Link](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
 
@@ -57,7 +61,7 @@ Feedback from a coach
 
 ### Can you say this about yourself? 
 
-Yes / No
+Yes
 
 
 ------
@@ -81,6 +85,16 @@ Yes / No
 
 ### What feedback have you had?
 
+#### Katerina Georgiou - Makers coach
+
+- _Shows a really good grasp of dependency injection and doubling to isolate tests._ (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
+
+
+#### Sophie Gill - Makers coach
+
+- _Good technique for seeing if a test is isolated._ (Referring to my use of commenting out the class or object I've doubled in a test to check that the test I'm trying to isolate still passes. This was in relation to the [Bowling Scorecard challenge](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md))
+
+
 #### Riya Dattani - cohort pair partner
 
 - Found the breaking down of each user story and problem into an object model table and example feature test (in irb) of how the program would work really useful in planning how we would step through the problem.
@@ -94,11 +108,6 @@ Yes / No
 - Your approach to pairing, using github project collaboration, forced regular commits and a real focus on test-driving.
 - Your TDD process is very thorough and enabled to  us into the swing very comfortably.
 - Your regular questions regarding '_how would a user expect to use this_' kept the focus on how the features should work in a holistic domain view when test-driving - a real strength of yours.
-
-
-#### Katerina Georgiou - Makers coach
-
-- _Shows a really good grasp of dependency injection and doubling to isolate tests._ (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
 
 
 #### Wardah Tarar - cohort pair partner

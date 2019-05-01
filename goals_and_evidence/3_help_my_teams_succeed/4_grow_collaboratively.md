@@ -22,9 +22,11 @@ Yes / No
 
 
 
-#### What feedback have you had?
+### What feedback have you had?
 
+#### Sam Ixer (week 5)
 
+Really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on exactly those, it really helped me think about what my learning goals were - thank you!
 
 
 #### Active projects

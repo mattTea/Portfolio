@@ -22,8 +22,11 @@ Yes / No
 
 
 
-#### What feedback have you had?
+### What feedback have you had?
 
+#### Sam Ixer (week 5)
+
+Really like your questions on 'what would a user want to do' to keep the focus on how the features should work, and domain model thinking when test-driving - a real strength of yours.
 
 
 

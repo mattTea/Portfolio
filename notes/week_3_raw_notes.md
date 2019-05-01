@@ -326,19 +326,7 @@ How **get visibility**?
 3. Use `save_and_open_page` to check state of html that was sent back
 
 
-**Debrief after challenge...**
-
-1. Take clues from user stories...
-- "Home page" on story 2 -> there was no homepage route in controller file
-
-2. When 'looking at error' alwasys start by googling it
-
-3. Use `save_and_open page` -> to direct to error
-
-4. Follow path of execution (or _flow of control_) to find error
-
-
-**Alice's debugging process** for this practical...
+#### Debugging process used in this practical
 
 1. See error in context -> first error in stack trace shows the feature test file and line (first part that is our code)
 2. Used `save_and_open_page` immediately above failing line
@@ -365,7 +353,21 @@ How **get visibility**?
 20. And has highlight that `struggle` was called `the_struggle` incorrectly
 
 
-#### Pairing challenge afternoon with Andy M
+#### Debrief after challenge...
+
+1. Take clues from user stories...
+- "Home page" on story 2 -> there was no homepage route in controller file
+
+2. When 'looking at error' always start by googling it
+
+3. Use `save_and_open page` -> to direct to error
+
+4. Follow path of execution (or _flow of control_) to find error
+
+
+------
+
+### Pairing challenge afternoon with Andy M
 
 `POST` requests should not render any html, they should redirect to a GET route to display
 - This results in a 303 in the server logs, [see...](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303)

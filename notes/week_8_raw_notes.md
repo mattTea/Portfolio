@@ -1,4 +1,4 @@
-# WEEK 7
+# WEEK 8-9
 
 ## DAY 1
 
@@ -162,3 +162,28 @@ https://github.com/makersacademy/instagram-challenge
     - Airport-js
     - Refactor bowling
     - (Notes app?)
+
+
+
+# WEEK 9
+
+[Feedback from Jeremy](https://github.com/mattTea/instagram-challenge/commit/c559f397d4580e4aed148bb1084b829b64cb5743#commitcomment-33343660) - Instagram code review
+
+- _Have led with the TDD'ing strictly, which is good._
+
+## Project
+
+https://medium.com/full-taxx/how-to-add-likes-to-posts-in-rails-e81430101bc2
+
+
+[Project team assessment criteria spreadsheet](https://docs.google.com/spreadsheets/d/1VjN54FDddP1dlHVDHyP8diOCBYfJrn61VxgKVFALR84/edit#gid=104272588)
+
+
+### End day 7 retro and learning
+
+- **Learning**: having a retro at the end of each day enabled a really honest check-in on how each of us were feeling -> those who had had a frustrating day could get it out and others talked though the positives that person had given during the day. We were all able to give and receive ideas for helping any negative feelings, take more breaks, don’t open your laptop that night, spend time with a coach. Felt like we really owned what we were doing and each others’ wellbeing
+
+- **Learning**: DO MORE - demo to our PO/coach. Got opinions and decisions but should have done more active demoing for faster feedback
+
+- **Learning**: Go straight to the root of a code smell (something you know doesn't feel right), don’t keep adding to it or ignoring it hoping it will get better! Examples: a non-foreign keyed reference column in a db table, devise library redirect code
+
