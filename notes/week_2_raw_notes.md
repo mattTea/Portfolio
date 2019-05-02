@@ -238,7 +238,7 @@ Probably start diagramming with the user interaction
 
 **Sequence diagram**
 
-Does not include the user interaction, only the applicaton domain
+Does not include the user interaction, only the application domain
 
 _Arrow direction_
 
@@ -327,7 +327,7 @@ _Sequence diagrams -> understanding interactions when we are delegating responsi
 **Sequence diagrams** -> gives info about what messages return and what objects will call them
 
 
-Feel like I have gone backwards slightly, not sure how this would be used to improve on techniques I aleady have to break down problems (yet!)
+Feel like I have gone backwards slightly, not sure how this would be used to improve on techniques I already have to break down problems (yet!)
 
 
 #### Feedback workshop

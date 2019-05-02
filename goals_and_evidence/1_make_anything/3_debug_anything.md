@@ -43,8 +43,14 @@ Yes
 Debugging skills [practical](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2)
 - [Process used to debug examples in practical](https://github.com/mattTea/Portfolio/blob/master/notes/week_3_raw_notes.md#debugging-process-used-in-this-practical)
 
-Examples of bugs I debugged in certain projects
-- Example 1
+#### Examples of bugs I debugged in certain projects
+
+- Within the [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md) challenge
+  - Certain unit tests were not returning equality, even though the application appeared to be working
+  - Tightening the loop, and getting visibility through use of Capybara's `save_and_open_page` and `puts` commands led me to the problem being an un-capitalised value (seen in [this commit](https://github.com/mattTea/rps-challenge/commit/63dbc5123649e6191f3e767b85228c0061f1f668))
+
+- Acebook ([PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)) challenge
+  <!-- Update this example -->
   - Process of debugging the like/unlike functionality in Acebook (got visibility and tightened the loop in .erb file - saw where the infinite loop was generated - the form creation block, removed to see program running, and worked to redesign the method)
 
 - Example...
@@ -63,7 +69,6 @@ Examples of bugs I debugged in certain projects
 
 - _Methodical approach when we had problems and things didn't work as expected. You took things step by step to work through it, and focused only on the next step to be able to move forward_ (Battle challenge)
 
-
 ------
 
 ### Active projects
@@ -72,5 +77,7 @@ Examples of bugs I debugged in certain projects
 ------
 
 ### Finished projects
+
+RPS
 
 [Birthday Greeter app](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md)

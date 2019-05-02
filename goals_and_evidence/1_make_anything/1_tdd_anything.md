@@ -106,7 +106,7 @@ Yes
 
 - Really appreciated your keeping to really simple steps (the simplest possible) as we test-drove the application, and your longer commit messages helped to build the detail and commit history story.
 - Your approach to pairing, using github project collaboration, forced regular commits and a real focus on test-driving.
-- Your TDD process is very thorough and enabled to  us into the swing very comfortably.
+- Your TDD process is very thorough and enabled us to get into the swing very comfortably.
 - Your regular questions regarding '_how would a user expect to use this_' kept the focus on how the features should work in a holistic domain view when test-driving - a real strength of yours.
 
 

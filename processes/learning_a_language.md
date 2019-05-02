@@ -1,4 +1,5 @@
-## Learning a Language Process
+My process to Learn a Language
+==============================
 
 To learn a language - rewrite a problem you've already solved in the new language
 - You've solved the problem, so you can focus on the syntax and rules of the new language
@@ -13,14 +14,13 @@ Learn other languages this week too(!)
 Plan - what learning I'm going to do - WHAT PROBLEMS AM I GOING TO SOLVE in XX days this week
 - Then review
 
+------
 
-### How do you test your learning?
+## How do you test your learning?
 
 Test your fluency by building something again that you've already built in another language
 
-
-
-
+------
 
 ## Reflective Practice
 

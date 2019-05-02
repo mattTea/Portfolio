@@ -1,4 +1,5 @@
-## My TDD Process
+My TDD process
+==============
 
 <!-- update to include feature tests (e.g. capybara on web) -->
 
@@ -27,4 +28,3 @@ _The below examples are ordered with the newest at the top, to show the progress
 2. Rock Paper Scissors [commit history](https://github.com/mattTea/rps-challenge/commits/master)
 
 3. Starting the airport challenge [screen recording](https://github.com/mattTea/airport_challenge/blob/master/problem/TDD-screen-recording-airport.mp4)
-

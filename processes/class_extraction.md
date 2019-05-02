@@ -1,4 +1,8 @@
-## My TDD Process
+My Class Extraction process
+===========================
+
+## To support encapsulation & single responsibility principles
+
 
 1. List all methods on original class
 2. Draw class model

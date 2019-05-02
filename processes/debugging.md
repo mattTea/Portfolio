@@ -1,5 +1,5 @@
-Debugging Process
-=================
+My Debugging process
+====================
 
 ## General
 

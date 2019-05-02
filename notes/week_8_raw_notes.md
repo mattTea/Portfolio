@@ -187,3 +187,16 @@ https://medium.com/full-taxx/how-to-add-likes-to-posts-in-rails-e81430101bc2
 
 - **Learning**: Go straight to the root of a code smell (something you know doesn't feel right), don’t keep adding to it or ignoring it hoping it will get better! Examples: a non-foreign keyed reference column in a db table, devise library redirect code
 
+
+## DAY 8
+
+Preventing page refresh for likes
+
+https://www.rubyguides.com/2019/03/rails-ajax/
+
+This one seems better
+https://medium.com/@codenode/how-to-use-remote-true-to-make-ajax-calls-in-rails-3ecbed40869b
+
+https://www.youtube.com/watch?v=eJHHIcScqYA
+
+Getting data to db and updates on refresh now just need to handle response!
