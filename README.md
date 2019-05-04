@@ -36,6 +36,8 @@ Click through to any of the following links for more detail.
 
 ## Projects
 
+[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
+
 [Notes App](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md)
 
 [Makers BnB](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)

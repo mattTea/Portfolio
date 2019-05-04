@@ -12,18 +12,20 @@ Being fluent is to be familiar with more than just the syntax of a language, but
 
 ### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
 
-My problem breakdown approach, which allows me to structure my thinking and plan the structure of a solution, allowing me to more fluently write the code to build it
-- [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md)
+1. My problem breakdown approach, which allows me to structure my thinking and plan the structure of a solution, allowing me to more fluently write the code to build it
+    - [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md)
 
-Screen recording of me using this process
-<!-- or project where I have quickly built up the tests and code (can be seen from commits? Bowling?) -->
-- [Link tbc]()
+2. Screen recording of me using this process
+    - [Link to screen recording](https://drive.google.com/open?id=1MLUtaq2My1sc5P6h8VSzPWSAE1z97Bpw)
 
-Feedback from pair partners and team members
-- [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
+3. A Project example where I have displayed fluent programming
+    - [Link to Chitter challenge](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)
 
-Feedback from process workshop partners
-- [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
+4. Feedback from pair partners and team members
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
+
+5. Feedback from process workshop partners
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
 
 ------
 
@@ -33,17 +35,13 @@ Yes
 
 ------
 
-### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
+### Reflect: How does each of the following examples show evidence of achieving this goal?
 
-My [problem breakdown approach](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md) allows me to structure my thinking, plan the structure of a solution, and think about the design and parts of the technologies I plan to use to solve that problem. This allows me to be more fluent when writing tests and building the solution, as I have done a lot of thinking in advance, and don't need to stop to take stock and determine the next steps so often.
+1. My [problem breakdown approach](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md) allows me to structure my thinking, plan the structure of a solution, and think about the design and parts of the technologies I plan to use to solve that problem. This allows me to be more fluent when writing tests and building the solution, as I have done a lot of thinking in advance, and don't need to stop to take stock and determine the next steps so often.
 
-During the [Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md) challenge...
+2. During the [Chitter challenge](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md) I used my increasingly fluent knowledge of Ruby to implement an object relational model (ORM) design pattern to wrap the data in each row of the database tables in instances of both [`Peep`](https://github.com/mattTea/chitter-challenge/blob/master/lib/peep.rb) and [`User`](https://github.com/mattTea/chitter-challenge/blob/master/lib/user.rb) classes so that each `peep` and each `user` could be accessed and used in the application.
 
-<!-- When else did I do this? -->
-
-In the [Chitter](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md) challenge...
-
-The [Thermostat](https://github.com/mattTea/Portfolio/blob/master/projects/thermostat.md) challenge...
+3. During this [process review example](https://drive.google.com/open?id=1MLUtaq2My1sc5P6h8VSzPWSAE1z97Bpw) I showed elements of fluent programming in the use of `.slice()` method. I knew what I wanted to achieve, and knew there was a JavaScript method for it, and simply needed to double check the docs for syntax. (Seen at 11:25 in the recording).
 
 ------
 
@@ -67,8 +65,6 @@ The [Thermostat](https://github.com/mattTea/Portfolio/blob/master/projects/therm
 ------
 
 ### Completed projects
-
-[Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
 
 [Chitter](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)
 

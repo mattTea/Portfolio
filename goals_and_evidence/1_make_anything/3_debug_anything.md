@@ -14,19 +14,14 @@ Safely debugging relies heavily on a strong TDD approach and good test coverage,
 
 ### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
 
-<!-- Complete the evidence in this section -->
+1. My process to debug code that isn't behaving as expected
+    - [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
 
-My process to debug code that isn't behaving as expected
-- [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
+2. Debugging examples in projects and challenges
+    - [Link tbc](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#project-examples)
 
-Screen recording of me using this process
-- [Link tbc]()
-
-Feedback from pair partners and team members
-- [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#what-feedback-have-you-had)
-
-Feedback from process workshop partners
-- [Link tbc]()
+3. Feedback from pair partners and team members
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#what-feedback-have-you-had)
 
 ------
 
@@ -36,25 +31,19 @@ Yes
 
 ------
 
-### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
+### Reflect: How does each of the following examples show evidence of achieving this goal?
 
-<!-- Build up this section -->
+1. Debugging process and steps used in this skills [practical](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2)
+    - [Process used to debug examples in practical](https://github.com/mattTea/Portfolio/blob/master/notes/week_3_raw_notes.md#debugging-process-used-in-this-practical)
 
-Debugging skills [practical](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2)
-- [Process used to debug examples in practical](https://github.com/mattTea/Portfolio/blob/master/notes/week_3_raw_notes.md#debugging-process-used-in-this-practical)
+#### Project examples
 
-#### Examples of bugs I debugged in certain projects
+2. Within the [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md) challenge
+    - Certain unit tests were not returning equality, even though the application appeared to be working
+    - Tightening the loop, and getting visibility through use of Capybara's `save_and_open_page` and `puts` commands led me to the problem being an un-capitalised value (seen in [this commit](https://github.com/mattTea/rps-challenge/commit/63dbc5123649e6191f3e767b85228c0061f1f668))
 
-- Within the [Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md) challenge
-  - Certain unit tests were not returning equality, even though the application appeared to be working
-  - Tightening the loop, and getting visibility through use of Capybara's `save_and_open_page` and `puts` commands led me to the problem being an un-capitalised value (seen in [this commit](https://github.com/mattTea/rps-challenge/commit/63dbc5123649e6191f3e767b85228c0061f1f668))
-
-- Acebook ([PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)) challenge
-  <!-- Update this example -->
-  - Process of debugging the like/unlike functionality in Acebook (got visibility and tightened the loop in .erb file - saw where the infinite loop was generated - the form creation block, removed to see program running, and worked to redesign the method)
-
-- Example...
-  - Get feedback and note other debugging examples - missed one or two examples in makersBnB
+3. Acebook-[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md) challenge
+    - During the process of building the `like` / `unlike` feature in PlaiceBook, when incrementing on the functionality to ensure only users that had not previously liked a post could see the `like` button I initially broke the program by creating an infinite loop. Through getting visibility and tightening the loop (using `Pry`, amongst other methods, to see the state of specific objects at specific points in the program) I was able to narrow down where the loop was being generated (inside the form creation block where a post had likes but not from the current user), and remove the bug through changing how this was called ([link to commit](https://github.com/mattTea/acebook-plaicebook/commit/ca4b930dbe7fce51c1c16f34a5c738d0447eac05)).
 
 ------
 
@@ -78,6 +67,8 @@ Debugging skills [practical](https://github.com/makersacademy/skills-workshops/t
 
 ### Finished projects
 
-RPS
+[Rock Paper Scissors](https://github.com/mattTea/Portfolio/blob/master/projects/rps.md)
+
+[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [Birthday Greeter app](https://github.com/mattTea/Portfolio/blob/master/projects/birthday.md)

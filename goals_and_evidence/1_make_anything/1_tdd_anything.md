@@ -32,29 +32,22 @@ My [process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md) 
 
 ### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
 
-My process to test-drive any problem through to a code solution.
-- [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
+1. My process to test-drive any problem through to a code solution.
+    - [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
 
-Screen recordings of me using this process.
-- [Links tbc]()
+2. Screen recording of me using this process during a process review workshop.
+    - [Links to screen recording](https://drive.google.com/open?id=1MLUtaq2My1sc5P6h8VSzPWSAE1z97Bpw)
 
-<!-- Add screen recording link of process workshop above -->
+3. Commit histories that tell the test-driven process story of my applications
+    - [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
+    - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
+      - Please note that the commit history story told in the second example above isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
 
-Commit histories that tell the test-driven process story of my applications
-- [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
-- [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
-  - Please note that the commit history story told in the second example above isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
+4. Feedback from pair partners
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
 
-Feedback from pair partners
-- [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
-
-Feedback from process workshop partners
-- [Link tbc]()
-
-<!-- Feedback from Arthur above -->
-
-Feedback from a coach
-- [Link](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
+5. Feedback from a coach
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
 
 
 ------
@@ -66,7 +59,7 @@ Yes
 
 ------
 
-### Reflect: How does each of the following examples of your best work show evidence of achieving this goal?
+### Reflect: How does each of the following examples show evidence of achieving this goal?
 
 1. The process and approach I took during the [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master) project shows an improvement over my process used in earlier projects such as [Rock, Paper, Scissors](https://github.com/mattTea/rps-challenge/commits/master), because the development of the application can clearly be seen from very early simple designs and features, through increasingly (test-driven) more complex features. Described clearly in the commit message 'story'.
 
@@ -75,7 +68,7 @@ Yes
     - All tests are meaningful
     - All test descriptions are clear
 
-    - Please note this project wasn't completed to its full specification, but was the first project I wrote in JavaScript. This forced me to learn and apply good mocking and spying practices while learning a new language and frameworks. (The full specification of this project (in Ruby) can be found [here](https://github.com/mattTea/airport_challenge)).
+    - This project wasn't completed to its full specification, but was used as a learning exercise as it was the first project I wrote in JavaScript. This forced me to learn and apply good mocking and spying practices while learning a new language and frameworks. (The full specification and my completed version of this project in Ruby can be found [here](https://github.com/mattTea/airport_challenge)).
 
 3. Doubling objects within the [Notes app](https://github.com/mattTea/notes-app-Tuesday) project ensured my tests were fully isolated. Good examples can be seen in [this file](https://github.com/mattTea/notes-app-Tuesday/blob/master/public/src/notes-list-view-tests.js) and [this file](https://github.com/mattTea/notes-app-Tuesday/blob/master/public/src/note-controller-tests.js)
 
