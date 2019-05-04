@@ -376,3 +376,24 @@ Matt
 Hi Matt, good to know it was helpful.
 RE screen recording, if you're not sure where to start I would recommend doing one of the kata in the process review workshop - spend no longer than 30 minutes on the problem and record your screen.
 You can watch it back yourself, or send it to anyone else (a peer, a coach, your mentor) to ask for feedback, but be as specific as possible about what you think went well, what you would like feedback on, and why you are seeking the feedback.
+
+#### Matt Thompson [4:17 PM] (Sat 4th May)
+Hi Sophie, hope you had a great holiday!
+
+Following your previous feedback, I've carried out some refactoring in the bowling scorecard `Frame.js` file, and I'd really appreciate your view again please, as well as any hints at where you might focus any further refactoring. I've removed any nested `if` statements and extracted out elements that could be reused to make the file cleaner, dryer, and hopefully easier to read and change. The comparison can be found here... https://github.com/mattTea/bowling-challenge/commit/54bd10314393a129f617f008975af41769efc182
+
+(Just in case you're not back yet, I'll send this same request across to Alice too. Thank you again!)
+
+
+### To Alice Saturday 4th May
+
+#### Matt Thompson [4:32 PM]
+Hi Alice, I was previously chatting to Sophie about some TDD and refactoring feedback on my Bowling Scorecard challenge. As she's on hols at the moment, could I ask for your view on something too please?
+
+I've carried out some refactoring in the bowling scorecard `Frame.js` file, and I'd really appreciate your view on whether I've achieved my aims of making the code cleaner, DRYer, and more easy to read/change. Any hints at where you might focus any further refactoring would also be fab. I've removed any nested `if` statements and extracted out elements that could be reused to try to achieve these aims. The comparison can be found here... https://github.com/mattTea/bowling-challenge/commit/54bd10314393a129f617f008975af41769efc182
+
+#### Alice Lieutier [8:01 PM]
+Hi! I have looked at the commit. Overall, it is DRYer, but it is still far from what it could be. I left a number of comments on the commit itself.
+
+#### Matt Thompson [9:28 PM]
+Hi Alice, thank you very much! They are brilliant comments, and just what I need to kick-start my thinking, thank you!

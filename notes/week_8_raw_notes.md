@@ -200,3 +200,15 @@ https://medium.com/@codenode/how-to-use-remote-true-to-make-ajax-calls-in-rails-
 https://www.youtube.com/watch?v=eJHHIcScqYA
 
 Getting data to db and updates on refresh now just need to handle response!
+
+
+### Some team love (feedback) on Slack!
+
+#### Matt Thompson [11:18 AM]
+:star: Thanks for the last 2 weeks guys, really enjoyed the project with you all! :grin: :fish:
+
+#### Evelyn Blázquez [12:15 PM]
+Thank you Matt for the very nice and supportive words! I would like to apologise to all of you for not being able to cope with the project the way I would have liked to. And I would like to thank you for allowing me to be part of the final demo. You are all amazing people! :muscle::blush:
+
+#### Amy Jordan [3:12 PM]
+Was having all the feels last night for our team and Mighty March. What a fab couple of weeks. Cod we have done any better? :joy:

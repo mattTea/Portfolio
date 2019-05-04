@@ -21,30 +21,35 @@ It is not about changing another developer's code to meet all your own style opi
 2. Feedback from pair partners
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
 
-<!-- Get feedback from a coach (Sophie?) after refactoring some bowling -->
-
-3. Feedback from a coach
-    - [Link tbc](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
+<!-- 3. Feedback from a coach
+    - [Link to feedback tbc](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had) -->
 
 ------
 
 ### Can you say this about yourself? 
 
-Yes / No
+Yes
 
 
 ------
 
 ### Reflect: How does each of the following examples show evidence of achieving this goal?
 
-1. During the building of a JavaScript single page [Notes app]() I inherited code that my pair partner had produced and worked on with a previous pair. I was able to refactor many of the tests to fully isolate the objects under test. This refactoring can be seen starting where I inherited the code at [this commit](https://github.com/mattTea/notes-app-Tuesday/commit/f8ed791a81026b99c266d76260eccce314c0a747) through to [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/20b29a826707be723a6abb7c0d21dc1560780901) and [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/af4b815564cbcdfd104ceb7ab2b7c853de4ab971).
+1. During the building of a JavaScript single page [Notes app](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md) I inherited code that my pair partner had produced and worked on with a previous pair. I was able to refactor many of the tests to fully isolate the objects under test. This refactoring can be seen starting where I inherited the code at [this commit](https://github.com/mattTea/notes-app-Tuesday/commit/f8ed791a81026b99c266d76260eccce314c0a747) through to [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/20b29a826707be723a6abb7c0d21dc1560780901) and [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/af4b815564cbcdfd104ceb7ab2b7c853de4ab971).
 
-2. [Link to Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master)
-      - **tbc** show how I refactored some of the long functions (after 2nd weekend of challenge)
+
+2. After building up some long methods in the [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master) challenge, I refactored the code (in [this file at this commit](https://github.com/mattTea/bowling-challenge/blob/5f77b07c5a/src/Frame.js)) to something that was cleaner, DRY-er and much easier to read and change, as can be seen in the same file in [this commit comparison](https://github.com/mattTea/bowling-challenge/commit/54bd10314393a129f617f008975af41769efc182).
 
 -------
 
 ### What feedback have you had?
+
+<!-- get this feedback -->
+
+<!-- #### Sophie Gill || Alice Lieutier - Makers coach
+
+- tbc -->
+
 
 #### Wardah Tarar - cohort pair partner
 
