@@ -27,7 +27,11 @@ Yes / No
 
 #### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
 
+- Javascript (and Jasmine)
+- SQL
+- Rails
 
+- Writing a test framework
 
 
 #### What feedback have you had?

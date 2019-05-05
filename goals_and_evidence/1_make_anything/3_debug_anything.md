@@ -51,17 +51,16 @@ Yes
 
 #### Paul Martin - cohort pair partner
 
-- _You conduct very methodical debugging to read irb errors (when running manual feature tests) to investigate feature file code to see what is actually happening_ (Boris Bikes challenge)
+- You conduct very methodical debugging to read irb errors (when running manual feature tests) to investigate feature file code to see what is actually happening. (Boris Bikes challenge)
 
 
 #### Alex Chen - cohort pair partner
 
-- _Methodical approach when we had problems and things didn't work as expected. You took things step by step to work through it, and focused only on the next step to be able to move forward_ (Battle challenge)
+- Methodical approach when we had problems and things didn't work as expected. You took things step by step to work through it, and focused only on the next step to be able to move forward. (Battle challenge)
 
 ------
 
 ### Active projects
-
 
 ------
 

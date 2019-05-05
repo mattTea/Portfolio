@@ -76,12 +76,12 @@ Yes
 
 #### Katerina Georgiou - Makers coach
 
-- _Shows a really good grasp of dependency injection and doubling to isolate tests._ (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
+- Shows a really good grasp of dependency injection and doubling to isolate tests. (for [takeaway challenge](https://github.com/mattTea/Portfolio/blob/master/projects/takeaway.md))
 
 
 #### Sophie Gill - Makers coach
 
-- _Good technique for seeing if a test is isolated._ (Referring to my use of commenting out the class or object I've doubled in a test to check that the test I'm trying to isolate still passes. This was in relation to the [Bowling Scorecard challenge](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md))
+- Good technique for seeing if a test is isolated. (Referring to my use of commenting out the class or object I've doubled in a test to check that the test I'm trying to isolate still passes. This was in relation to the [Bowling Scorecard challenge](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md))
 
 
 #### Riya Dattani - cohort pair partner

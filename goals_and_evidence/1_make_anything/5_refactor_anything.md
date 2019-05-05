@@ -30,7 +30,6 @@ It is not about changing another developer's code to meet all your own style opi
 
 Yes
 
-
 ------
 
 ### Reflect: How does each of the following examples show evidence of achieving this goal?
