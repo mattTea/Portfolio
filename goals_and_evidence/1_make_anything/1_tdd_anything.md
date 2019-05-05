@@ -43,12 +43,8 @@ My [process](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md) 
     - [Link to Thermostat commit history](https://github.com/samanthaixer/thermostatWeds/commits/master)
       - Please note that the commit history story told in the second example above isn't something I would normally follow (I wouldn't push breaking tests), but for the purposes of good pair practice and a more in-depth view of the test-driven approach used, this offers a nice example
 
-4. Feedback from pair partners
+4. Feedback from pair partners and a coach
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
-
-5. Feedback from a coach
-    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/1_tdd_anything.md#what-feedback-have-you-had)
-
 
 ------
 

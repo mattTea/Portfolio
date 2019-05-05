@@ -21,10 +21,7 @@ Being fluent is to be familiar with more than just the syntax of a language, but
 3. A Project example where I have displayed fluent programming
     - [Link to Chitter challenge](https://github.com/mattTea/Portfolio/blob/master/projects/chitter.md)
 
-4. Feedback from pair partners and team members
-    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
-
-5. Feedback from process workshop partners
+4. Feedback from pair partners, team members and process workshops
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/2_program_fluently.md#what-feedback-have-you-had)
 
 ------
