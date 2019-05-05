@@ -16,7 +16,7 @@ It is not about changing another developer's code to meet all your own style opi
 ### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
 
 1. Commit histories that show how I have refactored my own and others code, making code easy to read, and easy to change
-    - [Link to examples](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
+    - [Link to examples](https://github.com/mattTea/portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#reflect-how-does-each-of-the-following-examples-show-evidence-of-achieving-this-goal)
 
 2. Feedback from pair partners
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
@@ -38,7 +38,7 @@ Yes
 1. During the building of a JavaScript single page [Notes app](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md) I inherited code that my pair partner had produced and worked on with a previous pair. I was able to refactor many of the tests to fully isolate the objects under test. This refactoring can be seen starting where I inherited the code at [this commit](https://github.com/mattTea/notes-app-Tuesday/commit/f8ed791a81026b99c266d76260eccce314c0a747) through to [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/20b29a826707be723a6abb7c0d21dc1560780901) and [this refactored commit](https://github.com/mattTea/notes-app-Tuesday/commit/af4b815564cbcdfd104ceb7ab2b7c853de4ab971).
 
 
-2. After building up some long methods in the [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master) challenge, I refactored the code (in [this file at this commit](https://github.com/mattTea/bowling-challenge/blob/5f77b07c5a/src/Frame.js)) to something that was cleaner, DRY-er and much easier to read and change, as can be seen in the same file in [this commit comparison](https://github.com/mattTea/bowling-challenge/commit/54bd10314393a129f617f008975af41769efc182).
+2. After building up some long methods in the [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/commits/master) challenge, I refactored the code (in [this file at this commit](https://github.com/mattTea/bowling-challenge/blob/5f77b07c5a/src/Frame.js)) to something that was cleaner, DRY-er, much closer to single responsibility, and easier to read and change. It can be seen in the same file [here](https://github.com/mattTea/bowling-challenge/blob/9aa16aa789dd49665d89e48c96ff86da33cd6f18/src/Frame.js).
 
 -------
 

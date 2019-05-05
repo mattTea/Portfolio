@@ -384,6 +384,13 @@ Following your previous feedback, I've carried out some refactoring in the bowli
 
 (Just in case you're not back yet, I'll send this same request across to Alice too. Thank you again!)
 
+#### Matt Thompson [11:46 AM] (Sun 5th May)
+Actually, after some great guidance by Alice, here's a better attempt...
+
+https://github.com/mattTea/bowling-challenge/blob/9aa16aa789dd49665d89e48c96ff86da33cd6f18/src/Frame.js
+
+Thank you!
+
 
 ### To Alice Saturday 4th May
 
@@ -397,3 +404,10 @@ Hi! I have looked at the commit. Overall, it is DRYer, but it is still far from 
 
 #### Matt Thompson [9:28 PM]
 Hi Alice, thank you very much! They are brilliant comments, and just what I need to kick-start my thinking, thank you!
+
+#### Matt Thompson [11:44 AM] (Sun 5th May)
+Hey Alice, I was tired and/or being lazy yesterday, so thank you so much for your guidance! I'm happier with this latest refactor, (still one bit in this file I want to look at a bit more), but if you don't mind having another look that would be fab...
+
+https://github.com/mattTea/bowling-challenge/blob/9aa16aa789dd49665d89e48c96ff86da33cd6f18/src/Frame.js
+
+Thank you again!

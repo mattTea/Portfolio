@@ -17,6 +17,7 @@ Learning JavaScript (and Jasmine testing framework) in one week, and building th
 - Airport-in-JS
 - Bowling Scorecard
 
+- Kotlin?
 
 
 #### Can you say this about yourself? 

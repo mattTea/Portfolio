@@ -18,7 +18,7 @@ Safely debugging relies heavily on a strong TDD approach and good test coverage,
     - [Link to process](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
 
 2. Debugging examples in projects and challenges
-    - [Link tbc](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#project-examples)
+    - [Link to examples](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#project-examples)
 
 3. Feedback from pair partners and team members
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/3_debug_anything.md#what-feedback-have-you-had)
