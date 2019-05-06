@@ -24,6 +24,12 @@ Yes / No
 
 ### What feedback have you had?
 
+#### Individual feedback from Amy Jordan 5th May (after Acebook Engineering Project)
+(I help my teams succeed -> I grow collaboratively)
+
+You brought both fun and productivity to the team, making sure we had our eyes on the task at hand but also giving us the opportunity to learn and explore individually. You always made sure your learnings were shared with the group, as well as making sure we shared ours prompted by pull requests and code reviews. You definitely motivated me individually when I was having a down day and I'm sure the others in our team would say the same.
+
+
 #### Sam Ixer (week 5)
 
 Really appreciated how you approached our feedback discussion - asking what learning goals I was targeting in the pairing session, and then giving feedback on how I'd performed on exactly those, it really helped me think about what my learning goals were - thank you!

@@ -2,45 +2,74 @@
 
 ## I can learn anything by myself
 
-#### Reflect: What does it mean to be able to learn anything by myself?
+### Reflect: What does it mean to be able to learn anything by myself?
+
+To be able to learn anything is to be able to solve a problem in an unfamiliar context. Solving the problem will enable me to learn about that context. This is known as problem-centred learning - learning to solve a problem, rather than learning a subject.
+
+To practice problem-centred learning I have taken problems I have solved previously and solved them again in different contexts (in different languages and technologies). This allows me to use and experiment with familiar patterns and techniques without the added uncertainty of the problem itself.
+
+------
+
+### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
+
+1. Examples of problems solved in new languages
+    - [Link to examples](https://github.com/mattTea/portfolio/blob/master/goals_and_evidence/2_equipped_for_growth/2_learn_anything.md#reflect-how-does-each-of-the-following-examples-show-evidence-of-achieving-this-goal)
+
+
+2. Feedback from pair partners
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/2_equipped_for_growth/2_learn_anything.md#what-feedback-have-you-had)
+
+------
+
+### Can you say this about yourself? 
+
+Yes
+
+------
+
+### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
+
 
 - Follow a process
 - Have confidence in that process and patterns that I know
-- The process is based on... writing applications that I have already written, in a new language - comparing differences, noting similarities ane reusing concepts and terminology
+- The process is based on... writing applications that I have already written, in a new language - comparing differences, noting similarities and reusing concepts and terminology
 
-
-#### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
 
 Learning JavaScript (and Jasmine testing framework) in one week, and building the following projects in that week
 
-- Thermostat
-- Airport-in-JS
-- Bowling Scorecard
+1. The [airport-js](https://github.com/mattTea/airport-js/blob/master/spec/PlaneSpec.js) project was built, not quite to its full specification, but as a learning exercise as it was the first project I had written in JavaScript.
+    - I focused on patterns and concepts I was familiar with to ensure the program was built to the same quality as it was when I wrote it in Ruby, namely good TDD practice, feature injection and test isolation, and encapsulation and single responsibility. ([Link to commit history](https://github.com/mattTea/airport-js/commits/master))
+    - This also meant I had to learn a new test runner and framework, Jasmine. I used the same learning process to apply what I knew to this new context too.
 
-- Kotlin?
+2. The [Acebook (PlaiceBook)](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md) project was the first app I had built using Rails, which initially caused some discomfort as Rails as a framework provides a lot of the model structure and code as part of the setup, so it is essentially hidden from the developer (to start with).
+    - As a team we ensured early on that we held a 'learning standup' once per sprint. The first was to share and fully understand the Rails [MVC model](https://github.com/mattTea/acebook-plaicebook/blob/master/docs/MVC.JPG)
+    - [Link to feedback from team](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/2_equipped_for_growth/2_learn_anything.md#what-feedback-have-you-had)
 
+3. To gain a greater understanding of some of the basics of test frameworks, I built my own as part of the [News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md) challenge.
+    - `My Sharona` can be seen in [this file](https://github.com/mattTea/news-summary-challenge/blob/master/public/src/assert.js)
 
-#### Can you say this about yourself? 
+<!-- Kotlin? -->
 
-Yes / No
+------
 
+### What feedback have you had?
 
-#### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
+#### Amy Jordan during the [Acebook (PlaiceBook)](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md) project
 
-- Javascript (and Jasmine)
-- SQL
-- Rails
+- You brought both fun and productivity to the team, making sure we had our eyes on the task at hand but also giving us the opportunity to learn and explore individually. You always made sure your learnings were shared with the group, as well as making sure we shared ours, prompted by pull requests and code reviews. You definitely motivated me individually when I was having a down day and I'm sure the others in our team would say the same.
 
-- Writing a test framework
+------
 
+### Active projects
 
-#### What feedback have you had?
+------
 
+### Finished projects
 
+[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
+[Airport in JS repo](https://github.com/mattTea/airport-js)
 
-#### Active projects
+[News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/news-summary.md)
 
-
-
-#### Finished projects
+[SQL Zoo](https://github.com/mattTea/Portfolio/blob/master/projects/sql_zoo.md)

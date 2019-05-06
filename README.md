@@ -35,8 +35,10 @@ Click through to any of the following links for more detail.
 ------
 
 ## Projects
-
+<!-- update the first 2! -->
 [PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
+
+[News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/news-summary.md)
 
 [Notes App](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md)
 
@@ -74,13 +76,13 @@ Click through to any of the following links for more detail.
 
 ## Processes
 
-[Learning a language](https://github.com/mattTea/Portfolio/blob/master/processes/learning_a_language.md)
-
 [TDD](https://github.com/mattTea/Portfolio/blob/master/processes/tdd.md)
 
 [Debugging](https://github.com/mattTea/Portfolio/blob/master/processes/debugging.md)
 
 [Problem breakdown](https://github.com/mattTea/Portfolio/blob/master/processes/problem_breakdown.md)
+
+[Learning a language](https://github.com/mattTea/Portfolio/blob/master/processes/learning_a_language.md)
 
 [Code review](https://github.com/mattTea/Portfolio/blob/master/processes/code_review.md)
 
@@ -89,6 +91,10 @@ Click through to any of the following links for more detail.
 ------
 
 ## Weekly goals
+
+[Week 10]()
+
+[Weeks 8 & 9](https://github.com/mattTea/Portfolio/blob/master/notes/week_8.md)
 
 [Week 7](https://github.com/mattTea/Portfolio/blob/master/notes/week_7.md)
 

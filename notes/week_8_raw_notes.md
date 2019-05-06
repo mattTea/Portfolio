@@ -212,3 +212,9 @@ Thank you Matt for the very nice and supportive words! I would like to apologise
 
 #### Amy Jordan [3:12 PM]
 Was having all the feels last night for our team and Mighty March. What a fab couple of weeks. Cod we have done any better? :joy:
+
+
+#### Individual feedback from Amy Jordan 5th May (after Acebook Engineering Project)
+(I help my teams succeed -> I grow collaboratively)
+
+You brought both fun and productivity to the team, making sure we had our eyes on the task at hand but also giving us the opportunity to learn and explore individually. You always made sure your learnings were shared with the group, as well as making sure we shared ours prompted by pull requests and code reviews. You definitely motivated me individually when I was having a down day and I'm sure the others in our team would say the same.
