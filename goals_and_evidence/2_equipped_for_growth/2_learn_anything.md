@@ -27,15 +27,7 @@ Yes
 
 ------
 
-### Reflect: How does each of the following examples of your best work show evidence of achieving this goal? (e.g. Diode projects, Github repos)
-
-
-- Follow a process
-- Have confidence in that process and patterns that I know
-- The process is based on... writing applications that I have already written, in a new language - comparing differences, noting similarities and reusing concepts and terminology
-
-
-Learning JavaScript (and Jasmine testing framework) in one week, and building the following projects in that week
+### Reflect: How does each of the following examples evidence achieving this goal?
 
 1. The [airport-js](https://github.com/mattTea/airport-js/blob/master/spec/PlaneSpec.js) project was built, not quite to its full specification, but as a learning exercise as it was the first project I had written in JavaScript.
     - I focused on patterns and concepts I was familiar with to ensure the program was built to the same quality as it was when I wrote it in Ruby, namely good TDD practice, feature injection and test isolation, and encapsulation and single responsibility. ([Link to commit history](https://github.com/mattTea/airport-js/commits/master))
