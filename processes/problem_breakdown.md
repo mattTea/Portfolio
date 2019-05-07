@@ -22,7 +22,7 @@ My Problem Breakdown process
 
 5. Map the `methods` to `objects` to see which messages can be sent to which objects
 
-6. Draw out how they need to interact
+6. Draw out how they need to interact (and how the individual objects should encapsulate their concerns)
 
 7. How would the user expect to use the program
     - Run through an example in a REPL, for example

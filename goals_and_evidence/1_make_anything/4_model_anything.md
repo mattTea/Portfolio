@@ -38,7 +38,7 @@ Yes
     - [Link to CRCs and tables](https://github.com/mattTea/chitter-challenge/blob/master/problem/problem_breakdown.md#user-story-4---sign-up)
 
 
-3. The [AceBook engineering project](https://github.com/mattTea/portfolio/blob/master/projects/plaicebook.md) required us to build a Rails web app. This was built by a team of 4 of us, none of whom had never used the Rails framework previously. The biggest challenge we found early on was that as we had not written much of the underlying model code (Rails provides much of this), we were uncertain of how all the components of the program interacted. We held a team learning session to discuss and diagram the MVC model in place for this app
+3. The [AceBook engineering project](https://github.com/mattTea/portfolio/blob/master/projects/plaicebook.md) required us to build a Rails web app. This was built by a team of 4 of us, none of whom had used the Rails framework before. The biggest challenge we found early on was that as we had not written much of the underlying model code (Rails provides much of this), we were uncertain of how all the components of the program interacted. We held a team learning session to discuss and diagram the MVC model in place for this app
     - [Link to MVC model](https://github.com/mattTea/acebook-plaicebook/blob/master/docs/MVC.JPG)
 
 ------

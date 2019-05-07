@@ -86,7 +86,7 @@ Yes
 - Really liked the pace we worked at too and especially liked that we were putting in the effort to figure things out before looking at any walkthroughs - that definitely did a lot to galvanise what was learned.
 
 
-#### Arthur Ashman (week 4 pair partner)
+#### Arthur Ashman (week 4 pair partner)
 
 - Really appreciated your curiosity - when we didn't fully understand a concept you were very happy to break things and pull them apart to understand how they were working (examples included Capybara and rspec setup, also class methods)
 

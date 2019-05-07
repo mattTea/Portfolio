@@ -1,4 +1,4 @@
-# Week 8
+# Weeks 8 & 9
 
 _A weekly journal to keep track of the work I am doing towards each of the goals._
 
@@ -8,7 +8,17 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 
 ## Goals
 
+Primary goals
+By the end of the engineering project, the goal is to be able to answer "yes" to the primary question:
+
+Can you use high-quality processes to build a project in a team?
+
 - 
+
+https://github.com/makersacademy/course/blob/master/engineering_projects/rails/learning_objectives.md
+
+https://github.com/makersacademy/course/blob/master/final_projects/project_criteria.md
+
 
 
 #### Concepts

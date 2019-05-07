@@ -35,7 +35,7 @@ Click through to any of the following links for more detail.
 ------
 
 ## Projects
-<!-- update the first 2! -->
+<!-- update the first 3! -->
 [PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/news-summary.md)
@@ -92,7 +92,7 @@ Click through to any of the following links for more detail.
 
 ## Weekly goals
 
-[Week 10]()
+[Week 10](https://github.com/mattTea/Portfolio/blob/master/notes/week_10.md)
 
 [Weeks 8 & 9](https://github.com/mattTea/Portfolio/blob/master/notes/week_8.md)
 
