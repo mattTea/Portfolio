@@ -21,8 +21,8 @@ It is not about changing another developer's code to meet all your own style opi
 2. Feedback from pair partners
     - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
 
-<!-- 3. Feedback from a coach
-    - [Link to feedback tbc](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had) -->
+3. Feedback from a coach
+    - [Link to feedback](https://github.com/mattTea/Portfolio/blob/master/goals_and_evidence/1_make_anything/5_refactor_anything.md#what-feedback-have-you-had)
 
 ------
 
@@ -43,11 +43,9 @@ Yes
 
 ### What feedback have you had?
 
-<!-- get this feedback -->
+#### Alice Lieutier - Makers coach
 
-<!-- #### Sophie Gill || Alice Lieutier - Makers coach
-
-- tbc -->
+- Took onboard feedback and successfully refactored `Frame` object in [Bowling Scorecard](https://github.com/mattTea/bowling-challenge/blob/9aa16aa789dd49665d89e48c96ff86da33cd6f18/src/Frame.js)
 
 
 #### Wardah Tarar - cohort pair partner

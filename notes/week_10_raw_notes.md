@@ -173,3 +173,142 @@ returnDuplicates(input)
 ```
 
 Above didn't work!
+
+
+## DAY 2
+
+[Self assessment form](https://docs.google.com/forms/d/e/1FAIpQLSc7TWi5Vnx1zmnQdHHfCwozKMLXeQDr9M0oDxkzrYeBVAkB4w/viewform?usp=sf_link)
+
+(My answers in an email)
+
+To add to my refactor process
+
+- Did you start with a feature test?
+- Do your tests pass?
+- Is your test coverage high? (>95%)
+- Do your unit tests mock the dependencies of the object they are testing?
+- Does the linter (e.g. Rubocop, ESLint) pass with no warnings?
+- Are your variable, method, & class names clear and descriptive?
+- Explain briefly how your program works, as if to a layperson
+- Does your code read clearly, like the above?
+
+- Does your README
+  - Describe how to install dependencies, run your tests, and run the project?	
+  - Describe your approach?	
+  - Describe how you structured your code and why?	
+  - Include a screenshot of your running app?	
+  - Have reasonable spelling & grammar?	
+
+- Do your commit messages clearly describe what that commit does?
+ 
+- List your classes and their responsibilities
+  - Does each follow the single responsibility principle?
+  - Ask each class, spec and method/function what it does, if the reply involves the word "and" you probably need to refactor.
+
+- Is each method & class as small as possible?
+
+- Do you notice any of the following common problems in your code?
+  - One or two classes that do all the work
+  - One class is significantly longer than all of the others
+  - Most methods don't return anything, instead they modify instance variables
+  - The feature tests don't use a test framework (e.g. RSpec or Jasmine)
+  - The decimal points are missing on the end of the numbers
+  - The tests only pass today, because the dates aren't mocked or passed in as arguments
+  - Transaction is abbreviated to `trans` or `txn`
+  - A Transaction class that has a method that prints itself
+
+- Can you think of any alternative designs or approaches that might work better?
+
+
+### TODOs
+
+- Feature test YES
+- Test coverage YES
+- Linter YES
+- Readme YES
+- One class does all the work (Account) FIXED
+- Methods should return something, instead of modifying instance variables and state YES
+  - NOTE: if methods return their object they can be chained - this is good practice
+    - `return this`
+
+Think about splitting out another class to handle printing. Also look at each method to see if it should be returning something (rather than amending instance variables)
+
+
+Start with extracting Statement out YES
+
+- Account
+- Statement
+- ONE MORE -> (createTransaction() [another could be convertDate()]
+
+
+## Second self assessment
+
+- Each method fewer than 7 lines
+- Each class fewer than 50 lines
+- Test for behaviour more? <--
+
+
+------
+
+## Tech Interview Workshop with Becks
+
+#### Take Home Tech Tests
+
+Just Eat one is online
+
+- Want you to play with their api
+- Give you user stories
+- Ask you questions about it
+
+
+#### Tips
+
+- Read question
+- Research language and technology points
+- Always TDD
+- Communicate about timeframes and give yourself longer than you think you need
+- Do MVP first (and extra if you want/can)
+- README super-important for communicating
+
+
+- Hired from Makers because you're motivated and capable of learning (not for what you know)
+
+
+#### Projects
+
+- Always know how to talk through your projects
+- Be able to sketch the architecture
+- Discuss commits
+
+
+#### Tech chit-chat
+
+- Describe ways of working (agile), approaches, concepts (TDD, SOLID, DRY...)
+- What events do you go to
+- What do you know
+
+Look at interview_questions pill
+
+------
+
+# DAY 3
+
+`Transaction` is now injected into account.deposit() and .withdraw()
+
+To ensure tests are isolated...
+- Look at all Account tests where `deposit` or `withdraw` are called
+- Create a Transaction SpyObj
+- Pass the spyObj into the deposit and withdraw tests
+
+------
+
+## Second Tech Test
+
+### Gilded Rose.
+
+Link to [Gilded Rose repo](https://github.com/makersacademy/course/blob/master/individual_challenges/gilded_rose.md)
+
+Link to JavaScript [repo](https://github.com/guyroyse/gilded-rose-javascript)
+
+Link to my forked [repo](https://github.com/mattTea/gilded-rose)
+
