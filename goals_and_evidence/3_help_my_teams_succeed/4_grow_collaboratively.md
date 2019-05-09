@@ -73,7 +73,8 @@ Yes
 
 #### Arthur Ashman (CV feedback)
 
-- Incredible!! Thank you so much. This will give me real direction for my next draft - I really appreciate it. :)
+- Matt is a key team player, and is supportive when working collaboratively. He has helped me considerably by providing actionable constructive feedback on my CV which will help me succeed in my ultimate goal of landing my first dev job.
+- _Incredible!! Thank you so much. This will give me real direction for my next draft - I really appreciate it. :)_
 
 
 #### Lauren Qurashi (week 1 pair partner)
