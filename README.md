@@ -35,16 +35,16 @@ Click through to any of the following links for more detail.
 ------
 
 ## Projects
-<!-- update the first 3! -->
-[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
-[News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/news-summary.md)
+[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [Notes App](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md)
 
 [Makers BnB](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)
 
 [Bowling Scorecard](https://github.com/mattTea/Portfolio/blob/master/projects/bowling.md)
+
+[News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/news-summary.md)
 
 [Thermostat](https://github.com/mattTea/Portfolio/blob/master/projects/thermostat.md)
 

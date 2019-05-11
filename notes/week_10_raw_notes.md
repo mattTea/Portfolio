@@ -312,3 +312,45 @@ Link to JavaScript [repo](https://github.com/guyroyse/gilded-rose-javascript)
 
 Link to my forked [repo](https://github.com/mattTea/gilded-rose)
 
+------
+
+## DAY 4
+
+Final Project [resource library](https://airtable.com/shrrLZLGlnxK79TdQ) from Sophie
+
+_I am trialling a 'library' of resources for developers at Makers. It's really just another way of seeing what we have in GitHub, hopefully it's a bit easier to navigate. I've started collating the resources relevant to final projects here: https://airtable.com/shrrLZLGlnxK79TdQ_
+
+
+### Gilded Rose
+
+Great [resource](https://blog.wax-o.com/2015/05/an-alternative-to-if-else-and-switch-in-javascript/) for alternatives to `if/else` or `switch` statements
+
+Code snippet from above
+
+_Getting a value from a basic object literal by its key..._
+
+```javascript
+let foo = ( {
+  a: 1,
+  b: 2,
+} )[ bar ] || 3;
+
+// if bar is a, foo will be 1
+// if bar is b, foo will be 2
+// if bar is anything else, foo will be 3
+```
+
+also valid code...
+```javascript
+myFunction( ( {
+    a: 1,
+    b: 2,
+} )[ bar ] || 3 );
+```
+
+------
+
+### Self-assessment
+
+Self-assessment for for [gilded rose](https://forms.gle/9wVFGFGUbyw3cBKBA)
+

@@ -19,30 +19,47 @@ Link to [challenge](https://github.com/makersacademy/course/tree/master/engineer
 
 ## Evidence
 
-Evidence plan and links to examples
+- Link to [demo presentation](https://docs.google.com/presentation/d/1G4_IIE2ZSAjdjU69yEMdQYqS11aMUgAvkvzofioMsOM/edit#slide=id.p)
+- Link to [deployed app](http://plaicebook.herokuapp.com/)
 
-Daily retros with team
+1. Testing
+    - 100% coverage
+    - Feature tests throughout and unit tests for custom methods
+    - Every member of the team can describe why every test exists
 
-It is more important to pay attention to your learning objectives and the [Makers Engineering Project criteria](https://github.com/makersacademy/course/blob/master/final_projects/project_criteria.md). The points listed in the criteria are general expectations of a good project.
+2. Distribution of work
+    - All team members own the code, can describe why any part of the app exists, and made regular commits
+    - Every completed ticket in the [workflow board](https://trello.com/b/rpTFxQEg/acebook-plaicebook) has a closed or merged pull request
 
-- Rails MVC architecture
-- 
+3. Code quality
+    - Commit [messages](https://github.com/mattTea/acebook-plaicebook/commits/master) are clear and include...
+      - A single line describing the changes
+      - A description of the user problem it solves
+
+    - RuboCop linter passes on all commits
+    - [Repo](https://github.com/mattTea/acebook-plaicebook/blob/master/README.md) complexity score is low
+    - All pull requests are peer reviewed
+
+5. Documentation
+    - README contains description, install and run instructions and instructions to run tests
+    - Per sprint team learning sessions were also [captured](https://github.com/mattTea/acebook-plaicebook/tree/master/docs), along with progress snapshots
+
+6. Deployment
+    - Merging any branch into master automatically runs automated tests and deploys into production (TravisCI)
 
 ------
 
 ## Updates and comments
 
-Project completed: [date](link/to/repo)
+Project completed: [3rd May 2019](https://github.com/mattTea/acebook-plaicebook)
 
 Process, relevant comments and new things...
-- ...
 
+- Building on an existing codebase (provided by Rails generated files and the challenge setup) allowed me to improve my reading and understanding of code that I had not written myself. Modelling aspects of the application enabled me to see familiar patterns, and helped me understand Rails as a framework
 
-**What I learnt more of...**
+- Understanding the MVC pattern in a new technology (Rails), including `ActiveRecord`, Rails routing, and Rails controllers
 
-- Improving specific [process](), and how
-
-
-**What I found difficult and want to work on more...**
-
-- Things I started on but wish to practice and learn more
+- Helped improve the whole team's agile development process, through...
+  - Maintaining a Kanban workflow board of development items
+  - Morning stand-up and evening retro to ensure everyone shared progress, commitments, blockers and improvements
+  - Focusing on slicing of minimal functionality for every feature as well as the overall product, before iterating with improvements and richer features

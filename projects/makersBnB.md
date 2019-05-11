@@ -53,6 +53,7 @@ Laugh! People visiting the studio often comment on how much we laugh. Use it as 
 Project completed: [12th April 2019](https://github.com/mattTea/makersBnB)
 
 Process, relevant comments and new things...
+
 - This group project really helped me focus even more on how to breakdown and split tasks, and improve my code organisation so that it isn't tightly coupled. What drove this was having multiple people working on the code base, and the constant risk of overlapping in certain files and creating merge conflicts. [Link to commit history](https://github.com/mattTea/makersBnB/commits/master).
 
 - Git branching and merging

@@ -40,7 +40,7 @@ Yes
 3. To gain a greater understanding of some of the basics of test frameworks, I built my own as part of the [News Summary](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md) challenge.
     - `My Sharona` can be seen in [this file](https://github.com/mattTea/news-summary-challenge/blob/master/public/src/assert.js)
 
-<!-- Kotlin? -->
+4. In order to learn something completely new, I also build [FizzBuzz in Kotlin](https://github.com/mattTea/FizzBuzz-Kotlin), following the problem-centered method of learning within my process
 
 ------
 

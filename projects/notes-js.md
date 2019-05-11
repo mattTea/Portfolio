@@ -23,25 +23,19 @@ Evidence plan and links to examples
 - Do you have a clear idea of what you and your pair partner are doing? What their struggles are at the moment, what they're trying to achieve?
   - Wardah - helped and supported her to understand fully isolating tests
 
-- Have you received and given real code review? Real code review means feedback that results in changes to code (new commits).
-
 ------
 
 ## Updates and comments
 
 Project completed: [18th April 2019](https://github.com/mattTea/notes-app-Tuesday)
 
-Process, relevant comments and new things...
-- ...
-
 
 **What I learnt more of...**
 
-- Improving specific [process](), and how
-    - Refactoring others and my own code
-    - Being pragmatic about design decisions and others' style
+- Some great practice of isolating tests using feature injection and test doubles.
+  - Further cemented my understanding by providing insight and a small amount of coaching in this subject to my pair partner on one day 
 
 
 **What I found difficult and want to work on more...**
 
-- Things I started on but wish to practice and learn more
+- Single Page Apps, specifically `hash` routing
