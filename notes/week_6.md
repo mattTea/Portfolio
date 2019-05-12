@@ -21,8 +21,7 @@ _A weekly journal to keep track of the work I am doing towards each of the goals
 _Things I've learnt or improved, and links to examples._
 
 - **Concrete things** (e.g. written a test or set up rspec)
-  - [example]()
-  - [example]()
+  - Implemented TravisCI
 
 - **Concepts** (e.g. TDD or user stories)
   - Git branching and merging
@@ -30,7 +29,7 @@ _Things I've learnt or improved, and links to examples._
   - Link to [Pink BnB project](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)
 
 - **Processes** (e.g. debugging or problem breakdown -> TDD)
-  - [example]()
+  - [Code review process](https://github.com/mattTea/Portfolio/blob/master/processes/code_review.md) for every pull request
 
 - **Behaviours** (or my mindset when approaching certain things)
   - This week and the group project really helped me focus on how to breakdown and split tasks, and improve my code organisation so that it isn't tightly coupled. What drove this was having multiple people working on the code base, and the constant risk of overlapping in certain files and creating merge conflicts. [Link to commit history](https://github.com/mattTea/makersBnB/commits/master)

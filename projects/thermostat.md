@@ -16,10 +16,11 @@ Link to challenge [repo](https://github.com/makersacademy/course/tree/master/the
 
 Evidence plan and links to examples
 
-- I'm going to complete 50% of the challenges (empirical)
-- I'm going to test-drive my code (empirical)
-- I'm going to ask myself how I feel about the goals (emotional)
-- I'm going to attempt the weekend challenge (empirical) and complete it, and get a review from a coach (credible)
+- Fully test-driven code
+- Learning and implementing a solution in a new language, also including...
+  - Dynamic visual interface with JQuery
+  - New testing framework (Jasmine)
+  - Fetching data from external API
 
 ------
 
@@ -27,27 +28,12 @@ Evidence plan and links to examples
 
 Project completed: [5th April 2019](https://github.com/mattTea/thermostatThurs)
 
-Process, relevant comments and new things...
-- ...
+Process, comments and new things...
+- Brand new language this week with all challenges
+- Utilised a problem-centred approach to learning a language and new concepts
 
 My approach to learning a new language, how I went about it with this challenge...
-- ...
-- ...
+- Built up my process of [learning a language](https://github.com/mattTea/Portfolio/blob/master/processes/learning_a_language.md)
 
-And making code that is easy to change...?
-- ...
-- ...
-
-Solution was test driven using the following process (highlight that commit show the ping-pong and test-driven approach with my pairs, but wouldn't be my proper approach, committing failing tests!)
-- ...
-- ...
-
-
-**What I learnt more of...**
-
-- Improving specific [process](), and how
-
-
-**What I found difficult and want to work on more...**
-
-- Things I started on but wish to practice and learn more
+Solution was test driven using a "pass-a-test-write-a-test" ping-pong process (with one pair partner in particular)
+- It should be noted that the commit history showing this process wouldn't be my normal approach, as it meant commiting failing tests for the partner to pass, but it helped us learn some good test-driving and pairing skills

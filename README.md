@@ -84,6 +84,8 @@ Click through to any of the following links for more detail.
 
 [Learning a language](https://github.com/mattTea/Portfolio/blob/master/processes/learning_a_language.md)
 
+[Refactoring](https://github.com/mattTea/Portfolio/blob/master/processes/refactoring.md)
+
 [Code review](https://github.com/mattTea/Portfolio/blob/master/processes/code_review.md)
 
 [Class extraction](https://github.com/mattTea/Portfolio/blob/master/processes/class_extraction.md)
