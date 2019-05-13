@@ -354,3 +354,61 @@ myFunction( ( {
 
 Self-assessment for for [gilded rose](https://forms.gle/9wVFGFGUbyw3cBKBA)
 
+------
+
+## Feedback from observed test - Quiz
+
+### My feedback
+
+- Didn't write out a story of the feature/feature test beforehand, which made me go back and have to make changes on the fly
+- I jumped too quickly to try to solve the 'capture user input' problem in one go, I got back to building the simplest thing to pass the test towards the end of the session, but should have got there much earlier
+- Thought I did ok on capturing the problem, although I could have done more to break it down and plan my thinking, as I mentioned above
+- When I had a few minutes after the session to think how I should have solved it, I came up with much simpler solution options, so a takeaway for me is that I should give myself time (in these higher pressure situations) to think through the end-to-end feature
+
+
+### Katerina feedback
+
+Hi Matt, sorry for the delay. Here is my feedback. Please let me know if anything is unclear and if you have any questions:
+
+
+#### Initial planning
+
+```
+I like your initial planning and that you write users stories but these are very high level. The breakdown part of this planning is good but you don't break down the first user stories very much which doesn't leave you with a focussed view of how to proceed?
+
+I think as you mentioned above this is your biggest downfall as I'm not sure you're clear on what direction you're going in and what the flow of the program is. 
+
+The breakdown of steps in your planning should clearly show you what behaviour you need.
+```
+
+#### TDD Process
+
+```
+I'm not sure if the first test is forcing the behaviour you actually want? Why are these values coming from defined an extra variable in your test code rather than forcing this state on your object (the question stored in memory) in your Quiz object? You do get where you need after a few minutes but one of the test variables are not useful. I believe this is what causes you some confusion at 13 min 27 secs and it also delays you from realising that the real error is your syntax.
+
+I don't see you checking to see the exact file and line number where the error message is being thrown which should be an essential step in your debugging process.
+
+At 15.16 your error is confusing and is not helpful due to your test setup. When you delete the unnecessary questions variable at 16.44 you get the error message I would expect.
+
+I think it's worth noting that your 2nd test is written at 19.00 minutes in - it took quite a long time to get there 
+
+23.33 Initially, your second test is about a user being able to input some text but your text is actually testing both display of a question and the prompt. Your test should probably be around the fact that a user can input an answer - in this case 'Madrid'.
+```
+
+#### Program design/flow
+
+```
+If we look from a naming perspective, here the function showQuestion (singular) returns questions (plural) which seems like a mismatch in intention and why does this need to take a parameter. 
+
+17 min 34 seconds. You have a questions parameter on your object which does not need to be there and isn't being used so it's dead code.``` 
+Extra setup (which is not needed for this review)
+
+18.29 - at the moment it's probably not necessary to create a GitHub repo as this is a technical test about your process. However, this is something I would clarify at the beginning of a live tech test the same as you would do when you enquire if about a README
+```
+
+
+#### Flailing
+
+```
+You flail in the last few minutes around how to test user input. I think the main problem is that you haven't thought about the flow of your program from a high level and don't have this clearly in your head so when it comes to the tests they aren't helping you as they should be to drive your code and structure your program.
+```
