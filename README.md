@@ -36,6 +36,8 @@ Click through to any of the following links for more detail.
 
 ## Projects
 
+[Magneto](https://github.com/mattTea/Portfolio/blob/master/projects/magneto.md)
+
 [PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [Notes App](https://github.com/mattTea/Portfolio/blob/master/projects/notes-js.md)
@@ -93,6 +95,8 @@ Click through to any of the following links for more detail.
 ------
 
 ## Weekly goals
+
+[Weeks 11 & 12](https://github.com/mattTea/Portfolio/blob/master/notes/week_11.md)
 
 [Week 10](https://github.com/mattTea/Portfolio/blob/master/notes/week_10.md)
 

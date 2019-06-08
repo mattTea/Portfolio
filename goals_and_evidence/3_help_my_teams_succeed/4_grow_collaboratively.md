@@ -99,6 +99,8 @@ Yes
 
 #### Finished projects
 
+[Magneto](https://github.com/mattTea/Portfolio/blob/master/projects/magneto.md)
+
 [PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [Oystercard](https://github.com/mattTea/Portfolio/blob/master/projects/oystercard.md)

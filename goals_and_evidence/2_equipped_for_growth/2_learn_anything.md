@@ -58,6 +58,8 @@ Yes
 
 ### Finished projects
 
+[Magneto](https://github.com/mattTea/Portfolio/blob/master/projects/magneto.md)
+
 [PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
 
 [Airport in JS repo](https://github.com/mattTea/airport-js)

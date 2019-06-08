@@ -32,3 +32,9 @@ Yes / No
 
 
 #### Finished projects
+
+[Magneto](https://github.com/mattTea/Portfolio/blob/master/projects/magneto.md)
+
+[PlaiceBook](https://github.com/mattTea/Portfolio/blob/master/projects/plaicebook.md)
+
+[Makers BnB](https://github.com/mattTea/Portfolio/blob/master/projects/makersBnB.md)
